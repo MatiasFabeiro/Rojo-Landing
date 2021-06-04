@@ -1,0 +1,48 @@
+.slider {
+  width: 100%;
+  height: auto;
+  margin: 10rem auto;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.5);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+  margin: 0 5rem 0 0;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+  margin: 0 0 0 5rem;
+}

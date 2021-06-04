@@ -1,0 +1,48 @@
+.slider2 {
+    width: 100%;
+    height: auto;
+    margin: 5rem auto;
+  }
+  
+  .slide2 img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .slide2 {
+    transform: scale(0.3);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  .activeSlide2 {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .arrow2 {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow2 svg {
+    transition: color 300ms;
+  }
+  
+  .arrow2 svg:hover {
+    color: #68edff;
+  }
+  
+  .next2 {
+    right: 0%;
+    top: 50%;
+    margin: 0 5rem 0 0;
+  }
+  
+  .prev2 {
+    left: 0%;
+    top: 50%;
+    margin: 0 0 0 5rem;
+  }

@@ -1,0 +1,77 @@
+.banner-container{
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+    display: flex;
+    background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg);
+    background-size: cover;
+    /* filter: blur(6px); */
+}
+
+.banner-logo{
+    position: relative;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+    padding-top: 10rem;
+    padding-left: 12rem;
+}
+
+.banner-image{
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+}
+
+.container-text-and-btn{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    height: auto;
+    padding: 20em 0 0 0;
+}
+
+.banner-text > h1{
+    width: 75%;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.banner-text > p{
+    width: 65%;
+    font-size: 24px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #fff;
+}
+
+
+.btn-container{
+    object-fit: contain;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 2.5em 0 1em 0;
+    /* flex-direction: left;
+    justify-content: center; */
+}
+
+.btn-contactanos{
+
+    color: #004056;
+    background-color: #FFEFC5;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 16px 48px;
+    border-radius: 5px;
+    outline: 0;
+    /* box-shadow: 0px 3px 3px grey; */
+    cursor: pointer;
+}
