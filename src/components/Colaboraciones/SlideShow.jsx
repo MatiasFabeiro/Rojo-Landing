@@ -1,37 +1,56 @@
 import React from 'react';
-import './SlideShow.css';
-import 'react-slideshow-image/dist/styles.css';
-import { Slide } from 'react-slideshow-image';
-import Colaboraciones1 from '../../media/colaboraciones/card_opiniones.png';
-
-
-const slideImages = [
-    {Colaboraciones1},
-    {Colaboraciones1},
-    {Colaboraciones1},
-  ];
+import './SlideShow.scss';
 
 const SlideShow = () => {
     return (
-        <div className="slide-container">
-        <Slide>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-              <span>Slide 1</span>
+        <div>
+            <div class="slider-slideshow">
+                <div class="slide-slideshow-track">
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Slide 3</span>
-            </div>
-          </div>
-        </Slide>
-      </div>
+        </div>
     )
 }
 
