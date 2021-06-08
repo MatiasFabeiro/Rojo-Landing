@@ -1,13 +1,14 @@
-import React from 'react'
-import './Logo_banner.css'
-import BannerLogo from '../../media/inicio/logo_png.png'
+import React from 'react';
+import './Logo_banner.css';
+import BannerLogo from '../../media/inicio/logo_png.png';
+import BannerSlider from './Slider.jsx'
 
 const Logo_banner = () => {
     return (
         <div id="Inicio" className="banner-container">
-
+            
             <div className="banner-logo">
-            <img className="banner-image" src={BannerLogo} alt="Logo Rojo Agency"/> 
+            <img className="banner-image" src={BannerLogo} alt="Logo Rojo Agency"/>
             </div>
             
             <div className="container-text-and-btn">
@@ -17,7 +18,6 @@ const Logo_banner = () => {
 
                     <p>Hacemos de la comunicación digital la mayor aliada para negocios que quieran comunicar con creatividad y originalidad.</p>
                 </div>
-            
 
                 <div className="btn-container">
                     <a href="MailTo:contacto@rojo.agency"> 
@@ -26,9 +26,8 @@ const Logo_banner = () => {
                         </button> 
                     </a>
                 </div>
-
             </div>
-
+            <BannerSlider></BannerSlider>
         </div>
         )
 }

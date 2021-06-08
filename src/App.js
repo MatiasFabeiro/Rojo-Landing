@@ -33,7 +33,7 @@ function App() {
       <Nosotros></Nosotros>
       <Testimonios></Testimonios>
       <Colaboraciones></Colaboraciones>
-      <PosteosIG></PosteosIG>
+      {/* <PosteosIG></PosteosIG> */}
       <Contactanos></Contactanos>
       <Footer></Footer>
     </div>
