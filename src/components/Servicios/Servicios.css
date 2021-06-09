@@ -20,10 +20,12 @@
     height: 130vh;
     padding: 5rem 0 5rem 0;
     background-image: url(/src/media/servicios/background_texture.jpg);
-    background-repeat: repeat;
 }
 
 .servicios-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
 }

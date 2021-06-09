@@ -18,12 +18,31 @@ const Nosotros = () => {
             
             </div>
 
-            <Container className="container-nosotros">
+            <div className="container-nosotros">
+
+                <div className="nosotros-row">
+
+                    <div xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
+                        <img src={TeamVicky} alt="Foto de la integrante Vicky"/>
+                    </div>
+
+                    <div xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
+                        <img src={TeamJuly} alt="Foto de la integrante July"/>
+                    </div>
+
+                    <div xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
+                        <img src={TeamNanu} alt="Foto de la integrante Nanu"/>
+                    </div>
+
+                </div>
+
+            </div>
+            {/* <Container className="container-nosotros">
 
                 <Row className="nosotros-row">
 
                     <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
-                        <img src={TeamVicky} alt="" className="team-vicky"/>
+                        <img src={TeamVicky} alt=""/>
                     </Col>
 
                     <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
@@ -36,7 +55,7 @@ const Nosotros = () => {
 
                 </Row>
 
-            </Container>
+            </Container> */}
 
         </div>
     )

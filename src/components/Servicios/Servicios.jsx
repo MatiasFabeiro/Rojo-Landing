@@ -20,31 +20,55 @@ const Servicios = () => {
                 
             <h1 className="servicios-title">¿Qué hacemos?</h1>
 
-            <Container className="container-servicios">
+            <div className="container-servicios">
+
+                <div align="start" className="servicios-row">
+                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                            <img src={ServiceBranding} alt="" className="imagen-servicio"/>
+                        </div>
+                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                            <img src={ServiceGestion} alt="" className="imagen-servicio"/>
+                        </div>
+                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <img src={ServicePublicidad} alt="" className="imagen-servicio"/>
+                        </div>
+                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                                <img src={ServiceLearning} alt="" className="imagen-servicio"/>
+                        </div>
+                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                                <img src={ServiceDiseño} alt="" className="imagen-servicio"/>
+                        </div>
+                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                                <img src={ServiceDesarrollo} alt="" className="imagen-servicio"/>
+                        </div>
+                </div>
+            </div>
+
+            {/* <Container className="container-servicios">
 
                 <Row align="start" className="servicios-row">
-                        <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="servicios-col">
+                        <Col xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
                             <img src={ServiceBranding} alt="" className="imagen-servicio"/>
                         </Col>
-                        <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="servicios-col">
+                        <Col xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
                             <img src={ServiceGestion} alt="" className="imagen-servicio"/>
                         </Col>
-                        <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="servicios-col">
+                        <Col xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
                         <img src={ServicePublicidad} alt="" className="imagen-servicio"/>
                         </Col>
                 </Row>
                 <Row align="start" className="servicios-row">
-                    <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="servicios-col">
+                    <Col xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
                             <img src={ServiceLearning} alt="" className="imagen-servicio"/>
                     </Col>
-                    <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="servicios-col">
+                    <Col xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
                             <img src={ServiceDiseño} alt="" className="imagen-servicio"/>
                     </Col>
-                    <Col xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="servicios-col">
+                    <Col xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
                             <img src={ServiceDesarrollo} alt="" className="imagen-servicio"/>
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
         </div>
     )
 }

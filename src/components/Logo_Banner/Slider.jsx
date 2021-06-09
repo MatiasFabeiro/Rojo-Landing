@@ -7,20 +7,26 @@ const Slider = () => {
     
 const imagesSlider = [BannerImg1, BannerImg2];
 
-const [imageIndex, setImageIndex] = useState(0);
+const [state, setState] = useState({
+    translate: 0,
+    transition: 0.45
+  })
+
+  const { translate, transition } = state
 
     return (
-    <div className="banner-style-3">
+    <div className="banner-style-3" data-cycle={3400}>
         <div class="slideshow-container">
             <div class="mySlides fade">
-                {imagesSlider.map((img, index) => (
+                {/* {imagesSlider.map((img, index) => (
                     <div key={index}>
                         <img src={img} id="Home" className="banner-image2" alt="Slider con imagenes representando el color Rojo"/>
                     </div>
-                ))}
+                ))} */}
+                <img src={BannerImg1} id="Home" className="banner-image2" alt=""/>
                 
             </div>
-            {/* <div class="mySlides fade">
+            <div class="mySlides fade">
                 <img src={BannerImg2} id="Home" className="banner-image2" alt=""/>
             </div>
             <div class="mySlides fade">
@@ -46,7 +52,7 @@ const [imageIndex, setImageIndex] = useState(0);
             </div>
             <div class="mySlides fade">
                 <img src={BannerImg1} id="Home" className="banner-image2" alt=""/>
-            </div> */}
+            </div>
         </div>
     </div>
     )

@@ -3,8 +3,8 @@
     height: 90vh;
     object-fit: contain;
     display: flex;
-    /* background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg);
-    background-size: cover; */
+    background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg);
+    background-size: cover;
     /* filter: blur(6px); */
 }
 
@@ -19,8 +19,8 @@
 }
 
 .banner-image{
-    width: 70%;
     max-width: 100%;
+    width: 70%;
     height: auto;
 }
 

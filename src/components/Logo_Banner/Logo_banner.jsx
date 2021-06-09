@@ -6,7 +6,8 @@ import BannerSlider from './Slider.jsx'
 const Logo_banner = () => {
     return (
         <div id="Inicio" className="banner-container">
-            
+            {/* <BannerSlider></BannerSlider> */}
+
             <div className="banner-logo">
             <img className="banner-image" src={BannerLogo} alt="Logo Rojo Agency"/>
             </div>
@@ -27,7 +28,6 @@ const Logo_banner = () => {
                     </a>
                 </div>
             </div>
-            <BannerSlider></BannerSlider>
         </div>
         )
 }

@@ -5,18 +5,19 @@
   width: 100%;
   height: auto;
   margin: auto;
-  margin-top: -1rem;
+  margin-top: -5rem;
   filter: blur(5px);
   z-index: -10;
-  -webkit-transform: translate(0px, -50%);
-  -ms-transform: translate(0px, -50%);
-  transform: translate(0px, -50%);
 }
 
 /* Slideshow container */
 .slideshow-container {
-  position: absolute;
-  
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
 }
 
 /* Hide the images by default */
