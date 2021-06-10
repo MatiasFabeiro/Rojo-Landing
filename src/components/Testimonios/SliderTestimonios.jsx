@@ -2,7 +2,9 @@ import { React, useState } from "react";
 import Slider from "react-slick";
 import "./SliderTestimonios.css";
 import Testimonio1 from "../../media/opiniones/muestra.png";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+// import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
 
 const images = [Testimonio1, Testimonio1, Testimonio1, Testimonio1];
 
@@ -10,7 +12,7 @@ function SliderTestimonios() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <FaArrowRight size={25}/>
+        <IoIosArrowForward size={35}/>
       </div>
     );
   };
@@ -18,7 +20,7 @@ function SliderTestimonios() {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>
-        <FaArrowLeft size={25}/>
+        <IoIosArrowBack size={35}/>
       </div>
     );
   };

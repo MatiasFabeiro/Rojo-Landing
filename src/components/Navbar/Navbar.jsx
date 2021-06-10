@@ -4,7 +4,6 @@ import NavbarLogo from '../../media/rojo_iso.png'
 import Instagram from '../../media/inicio/iconos/icon_instagram.png'
 import Whatsapp from '../../media/inicio/iconos/icon_whatsapp.png'
 import Linkedin from '../../media/inicio/iconos/icon_linkedin.png'
-import '../Transition/Transition.css'
 import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 

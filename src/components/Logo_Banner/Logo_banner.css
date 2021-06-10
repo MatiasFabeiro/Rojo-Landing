@@ -3,9 +3,8 @@
     height: 90vh;
     object-fit: contain;
     display: flex;
-    background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg);
-    background-size: cover;
-    /* filter: blur(6px); */
+    /* background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg); */
+    /* background-size: cover; */
 }
 
 .banner-logo{
@@ -74,4 +73,23 @@
     outline: 0;
     /* box-shadow: 0px 3px 3px grey; */
     cursor: pointer;
+}
+
+.slider-banner{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    filter: blur(5px);
+    overflow: hidden;
+}
+
+.wdt-slider{
+    width: 100%;
+    height: auto;
+}
+
+.img-slider{
+    width: 100%;
+    height: auto;
 }

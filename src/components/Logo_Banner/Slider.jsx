@@ -15,6 +15,7 @@ const [state, setState] = useState({
   const { translate, transition } = state
 
     return (
+
     <div className="banner-style-3" data-cycle={3400}>
         <div class="slideshow-container">
             <div class="mySlides fade">
@@ -24,8 +25,8 @@ const [state, setState] = useState({
                     </div>
                 ))} */}
                 <img src={BannerImg1} id="Home" className="banner-image2" alt=""/>
-                
             </div>
+
             <div class="mySlides fade">
                 <img src={BannerImg2} id="Home" className="banner-image2" alt=""/>
             </div>

@@ -31,7 +31,8 @@
 }
 
 .servicios-col{
-    padding-bottom: 2.5em;
+    padding-bottom: 2.5em; 
+    padding: 0 5rem 0 5rem;
 }
 
 .servicios-col > h2{

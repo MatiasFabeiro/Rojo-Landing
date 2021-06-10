@@ -23,22 +23,22 @@ const Servicios = () => {
             <div className="container-servicios">
 
                 <div align="start" className="servicios-row">
-                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <div className="servicios-col">
                             <img src={ServiceBranding} alt="" className="imagen-servicio"/>
                         </div>
-                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <div className="servicios-col">
                             <img src={ServiceGestion} alt="" className="imagen-servicio"/>
                         </div>
-                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <div className="servicios-col">
                         <img src={ServicePublicidad} alt="" className="imagen-servicio"/>
                         </div>
-                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <div className="servicios-col">
                                 <img src={ServiceLearning} alt="" className="imagen-servicio"/>
                         </div>
-                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <div className="servicios-col">
                                 <img src={ServiceDiseño} alt="" className="imagen-servicio"/>
                         </div>
-                        <div xxl={4} xl={4} lg={6} md={12} sm={12} xs={12} className="servicios-col">
+                        <div className="servicios-col">
                                 <img src={ServiceDesarrollo} alt="" className="imagen-servicio"/>
                         </div>
                 </div>

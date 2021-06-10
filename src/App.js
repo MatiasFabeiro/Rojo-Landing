@@ -7,7 +7,7 @@ import Trabajos from './components/Trabajos/Trabajos.jsx'
 import Nosotros from './components/Nosotros/Nosotros.jsx'
 import Testimonios from './components/Testimonios/Testimonios.jsx'
 import Colaboraciones from './components/Colaboraciones/Colaboraciones.jsx'
-import PosteosIG from './components/PosteosIG/PosteosIG.jsx'
+// import PosteosIG from './components/PosteosIG/PosteosIG.jsx'
 import Contactanos from './components/Contactanos/Contactanos.jsx'
 import Footer from './components/Footer/Footer.jsx'
 

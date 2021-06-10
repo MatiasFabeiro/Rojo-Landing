@@ -22,15 +22,15 @@ const Nosotros = () => {
 
                 <div className="nosotros-row">
 
-                    <div xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
+                    <div className="nosotros-col">
                         <img src={TeamVicky} alt="Foto de la integrante Vicky"/>
                     </div>
 
-                    <div xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
+                    <div className="nosotros-col">
                         <img src={TeamJuly} alt="Foto de la integrante July"/>
                     </div>
 
-                    <div xxl={4} xl={4} lg={6} md={6} sm={12} xs={12} className="nosotros-col">
+                    <div className="nosotros-col">
                         <img src={TeamNanu} alt="Foto de la integrante Nanu"/>
                     </div>
 

@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import "./SliderTrabajos.css";
 import Trabajo1 from "../../media/trabajos/marco1_completo.png";
 import Trabajo2 from "../../media/trabajos/marco2_completo.png";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+// import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const images = [Trabajo1, Trabajo2, Trabajo1, Trabajo2];
 
@@ -11,7 +12,7 @@ function SliderTrabajos() {
     const NextArrow = ({ onClick }) => {
       return (
         <div className="arrow2 next2" onClick={onClick}>
-          <FaArrowRight size={25}/>
+          <IoIosArrowForward size={35}/>
         </div>
       );
     };
@@ -19,7 +20,7 @@ function SliderTrabajos() {
     const PrevArrow = ({ onClick }) => {
       return (
         <div className="arrow2 prev2" onClick={onClick}>
-          <FaArrowLeft size={25}/>
+          <IoIosArrowBack size={35}/>
         </div>
       );
     };
