@@ -5,6 +5,7 @@
     display: flex;
     /* background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg); */
     /* background-size: cover; */
+    overflow: hidden;
 }
 
 .banner-logo{
@@ -66,10 +67,10 @@
     color: #004056;
     background-color: #FFEFC5;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 800;
     font-family: 'Fira Sans', sans-serif;
     padding: 16px 48px;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: 0;
     /* box-shadow: 0px 3px 3px grey; */
     cursor: pointer;

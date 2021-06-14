@@ -66,7 +66,7 @@
 }
 
 .social-media{
-    padding-right: 20px;
+    padding-right: 30px;
     width: auto;
     height: 24px;
     cursor: pointer;
@@ -86,4 +86,10 @@
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+@media (max-width: 1450px){
+    .social-media-container{
+        display: none;
+    }
 }

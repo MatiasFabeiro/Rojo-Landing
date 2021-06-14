@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Logo_banner.css';
 import BannerLogo from '../../media/inicio/logo_png.png';
 // import BannerSlider from './Slider.jsx'
@@ -58,34 +58,34 @@ const Logo_banner = () => {
 
             <SliderBanner {...settings} className="slider-banner">  
             <div className="wdt-slider">  
-              <img src={BannerImg1} className="img-slider"/>  
+              <img src={BannerImg1} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg2} className="img-slider"/>  
+              <img src= {BannerImg2} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg3} className="img-slider"/>  
+              <img src= {BannerImg3} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg4} className="img-slider"/>  
+              <img src= {BannerImg4} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg5} className="img-slider"/>  
+              <img src= {BannerImg5} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg6} className="img-slider"/>  
+              <img src= {BannerImg6} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg7} className="img-slider"/>  
+              <img src= {BannerImg7} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg8} className="img-slider"/>  
+              <img src= {BannerImg8} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg9} className="img-slider"/>  
+              <img src= {BannerImg9} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
             <div className="wdt-slider">  
-              <img src= {BannerImg10} className="img-slider"/>  
+              <img src= {BannerImg10} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>
             </SliderBanner>
 

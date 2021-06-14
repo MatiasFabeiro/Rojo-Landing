@@ -7,9 +7,16 @@
 .container-trabajos-2{
 
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-image: url(/src/media/trabajos/background_color.png);
   
+}
+
+.background-rojo-trabajos{
+
+    width: 100%;
+    height: 10vh;
+    background-color: #F60000;
 }
 
 .trabajos{
@@ -25,3 +32,15 @@
     padding-bottom: 2em;
     color: #fff;
 }
+
+@media  (max-width: 1679px) {
+
+    .container-trabajos-2{
+        height: 100vh;
+    }
+
+    .background-rojo-trabajos{
+        display: none;
+    }
+        
+    }

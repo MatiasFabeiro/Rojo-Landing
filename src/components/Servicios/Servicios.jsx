@@ -1,6 +1,6 @@
 import React from 'react'
 import './Servicios.css'
-import { Container, Row, Col } from 'react-grid-system';
+// import { Container, Row, Col } from 'react-grid-system';
 import ServiceBranding from '../../media/servicios/service_branding.png'
 import ServiceDesarrollo from '../../media/servicios/service_desarrollo.png'
 import ServiceDiseño from '../../media/servicios/service_diseño.png'

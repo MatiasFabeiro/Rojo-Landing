@@ -15,8 +15,10 @@ const Trabajos = () => {
                     <SliderTrabajos/>
             
                 </div>
-                
+
             </div>
+                
+                <div className="background-rojo-trabajos"></div>
 
         </div>
     )

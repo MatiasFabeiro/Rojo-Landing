@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nosotros.css'
-import { Container, Row, Col } from 'react-grid-system'
+// import { Container, Row, Col } from 'react-grid-system'
 import TeamVicky from '../../media/equipo/team_vicky.png'
 import TeamJuly from '../../media/equipo/team_july.png'
 import TeamNanu from '../../media/equipo/team_nanu.png'

@@ -2,6 +2,7 @@
     width: 100%;
     height: 130vh;
     background-image: url(/src/media/textura-unsplash.jpg);
+    overflow: hidden;
     
 }
 

@@ -5,7 +5,7 @@
     padding-top: 5rem;
     background-color: #004056;
     color: #fff;
-
+    overflow: hidden;
 }
 
 .footer-container > p{
@@ -78,4 +78,69 @@
     font-size: 16px;
     text-align: center;
 
+}
+
+
+@media  (max-width: 1665px) {
+
+    .footer-container{
+        width: 100%;
+        height: 30vh;
+        padding-top: 5rem;
+        background-color: #004056;
+        color: #fff;
+        overflow: hidden;
+    }
+
+    .footer-informacion-contacto{
+        width: auto;
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 20px;
+        margin-left: 3rem;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .phone-icon{
+        float: left;
+        padding-left: 15px;
+    }
+    
+    .numero-contacto{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 3.2em;
+        padding: 1rem 0 0 0;
+        font-family: 'Fira Sans Condensed', sans-serif;
+    }
+    
+    .btn-contacto-footer{
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .footer-redes-sociales{
+        width: auto;
+        display: inline-block;
+        vertical-align: middle;
+        /* padding-left: 70%; */
+        font-size: 20px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .social-media-container-2{
+        margin-top: 20px;
+        right: 10px;
+        padding-left: 12px;
+    }
+    
+    .social-media-2{
+        padding-right: 20px;
+        width: auto;
+        height: 48px;
+        cursor: pointer;
+    }
+        
 }

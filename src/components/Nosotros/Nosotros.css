@@ -20,6 +20,7 @@
     height: 100vh;
     padding-top: 6em;
     background-color: #FFEFC5;
+    overflow: hidden;
 }
 
 .nosotros-row{
@@ -61,3 +62,20 @@
 .nosotros-col > p{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+
+@media  (max-width: 1643px) {
+
+    .container-nosotros{
+        height: 150vh;
+    }
+        
+    }
+
+    
+@media  (max-width: 1095px) {
+
+    .container-nosotros{
+        height: 220vh;
+    }
+        
+    }
