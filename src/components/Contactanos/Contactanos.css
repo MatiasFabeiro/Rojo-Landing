@@ -67,6 +67,8 @@
 
 .container-btn-redes{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     justify-content: center;
@@ -75,11 +77,11 @@
 }
 
 .container-btn-whatsapp{
-    padding-right: 10rem;
+    padding-right: 10%;
 }
 
 .btn-whatsapp{
-    display: inline-block;
+    display: block;
     font-size: 24px;
     padding: 15.5px 95.5px;
     border-radius: 5px;
@@ -97,11 +99,11 @@
   }
 
 .container-btn-linkedin{
-    padding-left: 10rem;
+    padding-left: 10%;
 }
 
 .btn-linkedin{
-    display: inline-block;
+    display: block;
     font-size: 24px;
     padding: 15.5px 95.5px;
     border-radius: 5px;
@@ -117,3 +119,66 @@
 .btn-linkedin:hover{
     background-color: #F60000;
   }
+
+@media (max-width: 1280px){
+    .contactanos-container{
+      width: 100%;
+      height: 150vh;
+      overflow: hidden;   
+  }
+}
+
+@media (max-width: 1024px){
+    .contactanos-container{
+      width: 100%;
+      height: 170vh;
+      overflow: hidden;   
+  }
+  }
+
+@media  (max-width: 768px) {
+
+    .contactanos-container{
+      width: 100%;
+      height: 130vh;
+      overflow: hidden;   
+  }
+
+.container-btn-whatsapp{
+    padding-right: 0%;
+}
+.container-btn-linkedin{
+    padding-left: 0%;
+}
+            
+    }
+
+@media  (max-width: 480px) {
+    
+  .contactanos-container{
+    width: 100%;
+    height: 230vh;
+    overflow: hidden;   
+}
+                  
+          } 
+  
+@media  (max-width: 360px) {
+    
+  .contactanos-container{
+    width: 100%;
+    height: 210vh;
+    overflow: hidden;   
+}
+                  
+          }
+      
+@media (max-width: 320px){
+  .contactanos-container{
+    width: 100%;
+    height: 190vh;
+    overflow: hidden;   
+}
+              
+      } 
+  
