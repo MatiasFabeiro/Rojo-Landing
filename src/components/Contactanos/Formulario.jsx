@@ -16,21 +16,23 @@ const Formulario = () => {
             <form className="form-container">
 
                 <div className="name-container">
-                <label>
-                    <p>Nombre y apellido</p>
-                    <input type="text" name="nombre" placeholder="Ej: Juan Gutierrez" className="name-field"/>
+                <label className="form-label">
+                    Nombre y apellido:
                 </label>
+                <input type="text" name="nombre" placeholder="Ej: Juan Gutierrez" className="name-field"/>
                 </div>
 
                 <div className="email-container">
-                <label>
-                    <p>Email</p>
-                    <input type="text" name="email" placeholder="Ej: hola@gmail.com" className="email-field"/>
+                <label className="form-label">    
+                    Email:
                 </label>
+                <input type="text" name="email" placeholder="Ej: hola@gmail.com" className="email-field"/>
                 </div>
 
                 <div className="textarea-container">
-                    <p>Mensaje</p>
+                <label className="form-label">
+                    Mensaje:
+                </label>
                 <textarea placeholder="Escribe tu mensaje aqui..." className="textarea-field"/>
                 </div>
 

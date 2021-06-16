@@ -88,7 +88,7 @@
     color: #fff;
 }
 
-@media (max-width: 1450px){
+@media screen and (max-width: 1450px){
     .social-media-container{
         display: none;
     }

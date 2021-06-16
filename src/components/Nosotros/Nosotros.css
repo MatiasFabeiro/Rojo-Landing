@@ -63,7 +63,7 @@
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-@media  (max-width: 1643px) {
+@media screen and (max-width: 1643px) {
 
     .container-nosotros{
         height: 150vh;
@@ -71,7 +71,7 @@
         
     }
 
-@media  (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
 
     .container-nosotros{
             height: 200vh;
@@ -79,15 +79,15 @@
             
     }
 
-@media  (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
 
         .container-nosotros{
-                height: 310vh;
+                height: 220vh;
         }
                 
         }
 
-@media  (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .container-nosotros{
             height: 230vh;
@@ -103,7 +103,7 @@
                     
             }  */
   
-@media (max-width: 360px){
+@media screen and (max-width: 360px){
         .container-nosotros{
             height: 260vh;
         }
@@ -116,7 +116,7 @@
                 
         }   
 
-@media (max-width: 320px){
+@media screen and (max-width: 320px){
         .container-nosotros{
             height: 340vh;
         }

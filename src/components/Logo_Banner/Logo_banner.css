@@ -95,7 +95,7 @@
     height: auto;
 }
 
-@media (max-width: 1700px) {
+@media screen and (max-width: 1700px) {
     .slider-banner{
         position: fixed;
         width: 150%;
@@ -106,7 +106,7 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .slider-banner{
         position: fixed;
         width: 200%;
@@ -117,7 +117,7 @@
     }
 }
 
-@media (max-width: 870px) {
+@media screen and (max-width: 870px) {
     .slider-banner{
         position: fixed;
         width: 250%;
@@ -128,7 +128,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .slider-banner{
         position: fixed;
         width: 350%;
@@ -139,7 +139,7 @@
     }
 }
 
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
     .slider-banner{
         position: fixed;
         width: 400%;

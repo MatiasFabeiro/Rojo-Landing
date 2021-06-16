@@ -1,28 +1,32 @@
 .form-container{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     position: relative;
     text-align: center;
-    max-width: 100%;
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-top: 5em;
     margin-bottom: 10px;
-    text-align: center;
     padding: 8px 12px;
     line-height: 1.5;
     overflow: hidden;
 }
 
-.name-container, .email-container, .textarea-container > p{
+.name-container, .email-container, .textarea-container {
+    width: 100%;
+    padding: 1.5em 0 1.5em 0;
+}
+
+.form-label{
+    display: flex;
+    width: 100%;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Fira Sans' Bold, sans-serif;
     color: #004056;
-}
-
-.name-container{
-    width: 100%;
-    padding: 1.5em 0 1.5em 0;
+    text-align: left;
+    margin-left: 35%;
 }
 
 .name-field{
@@ -32,13 +36,8 @@
     border: 1px solid #000;
     background-color: rgba(0, 64, 86, .3);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 1em;
-}
-
-.email-container{
-    width: 100%;
-    padding: 1.5em 0 1.5em 0; 
 }
 
 .email-field{
@@ -49,12 +48,7 @@
     border: 1px solid #000;
     background-color: rgba(0, 64, 86, .3);
     border-radius: 5px;
-    font-size: 14px;
-}
-
-.textarea-container{
-    width: 100%;
-    padding: 1.5em 0 1.5em 0;
+    font-size: 16px;
 }
 
 .textarea-field{
@@ -65,13 +59,11 @@
     border: 1px solid #000;
     background-color: rgba(0, 64, 86, .3);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 1em;
 }
 
 .submit{
-  display: inline-block;
-  position: relative;
   font-size: 24px;
   padding: 15.5px 95.5px;
   border-radius: 5px;
@@ -79,7 +71,6 @@
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   font-family: 'Fira Sans', sans-serif;
-  /** font-size: 20px; **/
   color: #fff;
   cursor: pointer;
 }
