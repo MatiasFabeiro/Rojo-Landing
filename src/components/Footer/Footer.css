@@ -1,7 +1,7 @@
 .footer-container{
 
     width: 100%;
-    height: 30vh;
+    height: auto;
     padding-top: 5rem;
     background-color: #004056;
     color: #fff;
@@ -22,6 +22,7 @@
     vertical-align: middle;
     font-size: 20px;
     margin-left: 3rem;
+    padding: 0 0 5rem 0;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -48,6 +49,7 @@
     display: inline-block;
     vertical-align: middle;
     padding-left: 75%;
+    padding-bottom: 5rem;
     font-size: 20px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -83,14 +85,14 @@
 
 @media  (max-width: 1665px) {
 
-    .footer-container{
+    /* .footer-container{
         width: 100%;
         height: 30vh;
         padding-top: 5rem;
         background-color: #004056;
         color: #fff;
         overflow: hidden;
-    }
+    } */
 
     .footer-informacion-contacto{
         width: auto;
@@ -181,7 +183,7 @@
 }
 
 @media screen and (max-width: 360px) {
-    .footer-container{
+    /* .footer-container{
 
         width: 100%;
         height: 60vh;
@@ -189,7 +191,7 @@
         background-color: #004056;
         color: #fff;
         overflow: hidden;
-    }
+    } */
 
     .footer-informacion-contacto{
         color: #fff;
@@ -213,7 +215,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer-container{
+    /* .footer-container{
 
         width: 100%;
         height: 70vh;
@@ -221,7 +223,7 @@
         background-color: #004056;
         color: #fff;
         overflow: hidden;
-    }
+    } */
 
     .footer-redes-sociales{
         width: auto;

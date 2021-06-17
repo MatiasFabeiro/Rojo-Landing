@@ -1,3 +1,10 @@
+.background-rojo-nosotros{
+
+    width: 100%;
+    height: 10vh;
+    background-color: #F60000;
+}
+
 .nosotros-title{
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
@@ -15,9 +22,8 @@
 }
 
 .container-nosotros{
-    max-width: 100%;
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding-top: 6em;
     background-color: #FFEFC5;
     overflow: hidden;
@@ -29,6 +35,7 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    padding-bottom: 10rem;
 }
 
 .nosotros-col{
@@ -63,35 +70,19 @@
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-@media screen and (max-width: 1643px) {
-
-    .container-nosotros{
-        height: 150vh;
-    }
-        
-    }
-
 @media screen and (max-width: 1280px) {
 
-    .container-nosotros{
+    /* .container-nosotros{
             height: 200vh;
-    }
+    } */
             
     }
 
-@media screen and (max-width: 1280px) {
-
-        .container-nosotros{
-                height: 220vh;
-        }
-                
-        }
-
 @media screen and (max-width: 768px) {
 
-    .container-nosotros{
+    /* .container-nosotros{
             height: 230vh;
-    }
+    } */
             
     }
 
@@ -104,9 +95,9 @@
             }  */
   
 @media screen and (max-width: 360px){
-        .container-nosotros{
+        /* .container-nosotros{
             height: 260vh;
-        }
+        } */
 
         .nosotros-col > img{
             width: 350px;
@@ -117,21 +108,8 @@
         }   
 
 @media screen and (max-width: 320px){
-        .container-nosotros{
+        /* .container-nosotros{
             height: 340vh;
-        }
+        } */
                 
         }
-
-/* @media (max-height: 1366px){
-        .container-nosotros{
-            height: 180vh;
-        }
-
-        .nosotros-col > img{
-            width: 500px;
-            height: auto;
-            padding: 1em;
-        }
-                
-        }  */

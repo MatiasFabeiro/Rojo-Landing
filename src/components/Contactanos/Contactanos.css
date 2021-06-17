@@ -1,6 +1,6 @@
 .contactanos-container{
     width: 100%;
-    height: 130vh;
+    height: auto;
     background-image: url(/src/media/textura-unsplash.jpg);
     overflow: hidden;
     
@@ -74,6 +74,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 4em;
+    padding: 0 0 15% 0;
 }
 
 .container-btn-whatsapp{
@@ -121,11 +122,11 @@
   }
 
 @media screen and (max-width: 1280px){
-    .contactanos-container{
+    /* .contactanos-container{
       width: 100%;
       height: 150vh;
       overflow: hidden;   
-  }
+  } */
 
 .td-divider{
     width: 50%;
@@ -142,11 +143,11 @@
 }
 
 @media screen and (max-width: 1024px){
-    .contactanos-container{
+    /* .contactanos-container{
       width: 100%;
       height: 170vh;
       overflow: hidden;   
-  }
+  } */
 
 .td-divider{
     width: 50%;
@@ -164,11 +165,11 @@
 
 @media screen and (max-width: 768px) {
 
-    .contactanos-container{
+    /* .contactanos-container{
       width: 100%;
       height: 130vh;
       overflow: hidden;   
-  }
+  } */
 
 .container-btn-whatsapp{
     padding-right: 0%;
@@ -181,21 +182,21 @@
 
 @media screen and (max-width: 480px) {
     
-  .contactanos-container{
+  /* .contactanos-container{
     width: 100%;
     height: 230vh;
     overflow: hidden;   
-}
+} */
                   
           } 
   
 @media screen and (max-width: 360px) {
     
-  .contactanos-container{
+  /* .contactanos-container{
     width: 100%;
     height: 210vh;
     overflow: hidden;   
-}
+} */
 
 .td-divider{
   width: 50%;
@@ -212,11 +213,11 @@
           }
       
 @media screen and (max-width: 320px){
-  .contactanos-container{
+  /* .contactanos-container{
     width: 100%;
     height: 280vh;
     overflow: hidden;   
-}
+} */
 
 .td-divider{
   width: 50%;

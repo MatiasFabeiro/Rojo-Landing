@@ -3,6 +3,7 @@ import './Testimonios.css';
 import SliderTestimonios from './SliderTestimonios.jsx';
 
 const Testimonios = () => {
+
     return (
         <div id="Testimonios" className="container-testimonios">
     
@@ -10,7 +11,7 @@ const Testimonios = () => {
 
              <div className="testimonios-slider">
 
-                 <SliderTestimonios/>
+                <SliderTestimonios/>
                 
             </div>
 

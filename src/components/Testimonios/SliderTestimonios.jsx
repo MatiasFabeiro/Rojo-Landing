@@ -9,6 +9,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const images = [Testimonio1, Testimonio1, Testimonio1, Testimonio1];
 
 function SliderTestimonios() {
+
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
@@ -28,15 +29,46 @@ function SliderTestimonios() {
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    centerMode: true,
-    centerPadding: 0,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    beforeChange: (current, next) => setImageIndex(next),
-  };
+    autoplay: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      // slidesToScroll: 4,
+      // initialSlide: 0,
+      centerMode: true,
+      centerPadding: 0,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
+      beforeChange: (current, next) => setImageIndex(next),
+      responsive: [
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 3,
+            infinite: true,
+            dots: true,
+          }
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 1,
+            infinite: true,
+            dots: true,
+          }
+        },
+
+        {
+          breakpoint: 361,
+          settings: {
+            slidesToShow: 1,
+            infinite: true,
+            dots: true,
+          }
+        },
+      ]
+    };
+
 
   return (
     <div className="slider">
@@ -47,7 +79,8 @@ function SliderTestimonios() {
           </div>
         ))}
       </Slider>
-    </div>
+
+        </div>
   );
 }
 

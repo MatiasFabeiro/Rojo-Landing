@@ -12,6 +12,8 @@ const Nosotros = () => {
     return (
         <div id="Nosotros">
 
+            <div className="background-rojo-nosotros"></div>
+
             <div className="background-title">
 
             <h1 className="nosotros-title">Las chicas de ROJO</h1>
