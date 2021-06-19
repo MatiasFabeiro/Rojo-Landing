@@ -23,10 +23,14 @@
     width: 100%;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Fira Sans' Bold, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #004056;
     text-align: left;
     margin-left: 30%;
+}
+
+::placeholder{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .name-field{
@@ -78,3 +82,127 @@
 .submit:hover{
   background-color: #F60000;
 }
+
+@media  (max-width: 1680px) {
+}
+
+@media  (max-width: 1280px) {
+}
+
+@media  (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px){
+    .form-label{
+        width: 100%;
+        font-size: 18px;
+        margin-left: 20%;
+    }
+
+    .name-field{
+        width: 60%;
+        height: 50px;
+        padding-left: 15px;
+        font-size: 16px;
+        margin-top: 1em;
+    }
+    
+    .email-field{
+        width: 60%;
+        height: 50px;
+        margin-top: 1em;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+    
+    .textarea-field{
+        width: 60%;
+        height: 150px;
+        padding-left: 15px;
+        padding-top: 1em;
+        font-size: 16px;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 480px){
+        .form-label{
+            width: 100%;
+            font-size: 18px;
+            text-align: left;
+            margin-left: 5%;
+        }
+    
+        .name-field{
+            width: 90%;
+            height: 50px;
+            padding-left: 15px;
+            font-size: 16px;
+            margin-top: 1em;
+        }
+        
+        .email-field{
+            width: 90%;
+            height: 50px;
+            margin-top: 1em;
+            padding-left: 15px;
+            font-size: 16px;
+        }
+        
+        .textarea-field{
+            width: 90%;
+            height: 150px;
+            padding-left: 15px;
+            padding-top: 1em;
+            font-size: 16px;
+            margin-top: 1em;
+        }  
+    }
+
+@media screen and (max-width: 360px){
+    .form-label{
+        display: flex;
+        width: 100%;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    .name-field{
+        width: 90%;
+        height: 50px;
+        padding-left: 15px;
+        font-size: 16px;
+        margin-top: 1em;
+    }
+    
+    .email-field{
+        width: 90%;
+        height: 50px;
+        margin-top: 1em;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+    
+    .textarea-field{
+        width: 90%;
+        height: 120px;
+        padding-left: 15px;
+        padding-top: 1em;
+        font-size: 16px;
+        margin-top: 1em;
+    }  
+}
+
+@media screen and (max-width: 320px){
+    .textarea-field{
+        height: 120px;
+    }  
+
+    .textarea-field{
+        width: 90%;
+        height: 120px;
+    }  
+
+}
+

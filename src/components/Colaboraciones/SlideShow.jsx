@@ -3,7 +3,7 @@ import './SlideShow.scss';
 
 const SlideShow = () => {
     return (
-        <div>
+        <div className="slideshow-container">
             <div class="slider-slideshow">
                 <div class="slide-slideshow-track">
                     <div class="slide-slideshow">

@@ -17,12 +17,15 @@ $animationSpeed: 40s;
 	100% { transform: translateX(calc(-250px * 7))}
 }
 
+.slideshow-container{
+	padding: 10% 0 10% 0;
+}
+
 .slider-slideshow {
 	background: #fff;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: auto;
 	margin: auto;
-	margin-top: 10rem;
 	overflow:hidden;
 	position: relative;
 	width: 100%;

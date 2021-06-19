@@ -4,7 +4,6 @@
     background-color: transparent;
     width: 100%;
     height: 80px;
-    padding-left: 50px;
     font-size: 20px;
     z-index: 1000;
 }
@@ -18,6 +17,7 @@
     display: block;
     position: absolute;
     z-index: 2;
+    padding-left: 8.5%;
 }
 
 .navbar-logo{
@@ -25,7 +25,7 @@
     height: 60px;
     line-height: 50px;
     margin-top: 10px;
-    margin-left: 7em;
+    margin-left: 50%;
     cursor: pointer;
 }
 
@@ -95,7 +95,9 @@
 }
 
 @media screen and (max-width: 1280px){
-
+    .navbar-sections{
+        padding-left: 10%;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -104,14 +106,22 @@
     }
 }
 
-@media screen and (max-width: 768){
+@media screen and (max-width: 768px){
 
 }
 
-@media screen and (max-width: 360){
-
+@media screen and (max-width: 480px){
+    .navbar-logo-container{
+        display: flex;
+        z-index: 2;
+        padding-left: 1%;
+    }
 }
 
-@media screen and (max-width: 320){
+@media screen and (max-width: 360px){
+    
+}
+
+@media screen and (max-width: 320px){
 
 }

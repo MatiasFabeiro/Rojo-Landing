@@ -40,26 +40,14 @@
 
 .nosotros-col{
     padding-bottom: 10em;
-    padding: 0 3rem 0 0;
+    padding: 0 5% 0 5%;
 }
 
 .nosotros-col > img{
-    width: 500px;
+    width: 100%;
     height: auto;
     padding: 1em;
 }
-
-/* .team-vicky{
-    margin-right: 5rem;
-}
-
-.team-july{
-    margin-right: 5rem;
-}
-
-.team-nanu{
-
-} */
 
 .nosotros-col > h2{
     font-family: 'Fira Sans', sans-serif;
@@ -71,45 +59,19 @@
 }
 
 @media screen and (max-width: 1280px) {
-
-    /* .container-nosotros{
-            height: 200vh;
-    } */
             
     }
 
 @media screen and (max-width: 768px) {
-
-    /* .container-nosotros{
-            height: 230vh;
-    } */
             
     }
 
-/* @media  (max-width: 480px) {
-    
-        .container-nosotros{
-                height: 400vh;
-            }
-                    
-            }  */
+@media  (max-width: 480px) {      
+}
   
-@media screen and (max-width: 360px){
-        /* .container-nosotros{
-            height: 260vh;
-        } */
-
-        .nosotros-col > img{
-            width: 350px;
-            height: auto;
-            padding: 1em;
-        }
+@media screen and (max-width: 360px){ 
                 
-        }   
+}   
 
-@media screen and (max-width: 320px){
-        /* .container-nosotros{
-            height: 340vh;
-        } */
-                
-        }
+@media screen and (max-width: 320px){          
+}

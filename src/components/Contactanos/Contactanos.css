@@ -54,11 +54,11 @@
   }
   
   .separator:not(:empty)::before {
-    margin-right: .25em;
+    margin-right: .5em;
   }
   
   .separator:not(:empty)::after {
-    margin-left: .25em;
+    margin-left: .5em;
   }
 
   .hr{
@@ -90,7 +90,6 @@
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     font-family: 'Fira Sans', sans-serif;
-    /** font-size: 20px; **/
     color: #fff;
     cursor: pointer;
   }
@@ -112,7 +111,6 @@
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     font-family: 'Fira Sans', sans-serif;
-    /** font-size: 20px; **/
     color: #fff;
     cursor: pointer;
   }
@@ -121,12 +119,10 @@
     background-color: #F60000;
   }
 
+@media  (max-width: 1680px) {
+}
+
 @media screen and (max-width: 1280px){
-    /* .contactanos-container{
-      width: 100%;
-      height: 150vh;
-      overflow: hidden;   
-  } */
 
 .td-divider{
     width: 50%;
@@ -143,11 +139,6 @@
 }
 
 @media screen and (max-width: 1024px){
-    /* .contactanos-container{
-      width: 100%;
-      height: 170vh;
-      overflow: hidden;   
-  } */
 
 .td-divider{
     width: 50%;
@@ -164,60 +155,93 @@
 }
 
 @media screen and (max-width: 768px) {
+.td-divider{
+    width: 50%;
+    padding: 0 0 0 5%;
+    color: #004056;
+}
 
-    /* .contactanos-container{
-      width: 100%;
-      height: 130vh;
-      overflow: hidden;   
-  } */
+.td-divider2{
+    width: 50%;
+    padding: 0 5% 0 0;
+    color: #004056;
+}
 
 .container-btn-whatsapp{
-    padding-right: 0%;
+    padding-right: 2.5%;
 }
 .container-btn-linkedin{
-    padding-left: 0%;
+    padding-left: 2.5%;
 }
             
     }
 
 @media screen and (max-width: 480px) {
-    
-  /* .contactanos-container{
+  .container-btn-redes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
-    height: 230vh;
-    overflow: hidden;   
-} */
-                  
-          } 
+    height: auto;
+    align-content: center;
+    margin-top: 4em;
+    padding: 0 0 15% 0;
+  }
+  
+  .btn-whatsapp{
+    width: 100%;
+    font-size: 24px;
+    padding: 15.5px 95.5px;
+    border-radius: 5px;
+    background-color: #004056;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-linkedin{
+    width: 100%;
+    font-size: 24px;
+    padding: 15.5px 95.5px;
+    border-radius: 5px;
+    background-color: #004056;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .container-btn-whatsapp{
+    padding-bottom: 5%;
+    padding-right: 0%;
+  }
+  .container-btn-linkedin{
+    padding-top: 5%;
+    padding-left: 0%;
+  }
+
+} 
   
 @media screen and (max-width: 360px) {
-    
-  /* .contactanos-container{
-    width: 100%;
-    height: 210vh;
-    overflow: hidden;   
-} */
 
 .td-divider{
   width: 50%;
   padding: 0 0 0 5%;
   color: #004056;
-}
+  }
 
 .td-divider2{
   width: 50%;
   padding: 0 5% 0 0;
   color: #004056;
+  }
+
 }
-                  
-          }
       
 @media screen and (max-width: 320px){
-  /* .contactanos-container{
-    width: 100%;
-    height: 280vh;
-    overflow: hidden;   
-} */
 
 .td-divider{
   width: 50%;
@@ -229,6 +253,10 @@
   width: 50%;
   padding: 0 1% 0 0;
   color: #004056;
+}
+
+.btn-linkedin{
+  margin-right: 1rem;
 }
               
       } 
