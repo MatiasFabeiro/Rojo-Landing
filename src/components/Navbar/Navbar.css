@@ -88,6 +88,14 @@
     color: #fff;
 }
 
+.HamburgerMenu{
+    display: none;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
 @media screen and (max-width: 1450px){
     .social-media-container{
         display: none;
@@ -103,6 +111,10 @@
 @media screen and (max-width: 1024px){
     .navbar-sections{
         display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
     }
 }
 

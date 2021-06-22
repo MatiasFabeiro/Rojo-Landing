@@ -5,9 +5,11 @@ import Instagram from '../../media/inicio/iconos/icon_instagram.png'
 import Whatsapp from '../../media/inicio/iconos/icon_whatsapp.png'
 import Linkedin from '../../media/inicio/iconos/icon_linkedin.png'
 import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import HamburgerMenu from './HamburgerMenu.jsx';
 
 const Navbar = ({isScrolling}) => {
+
     return (
         <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
             
@@ -33,6 +35,10 @@ const Navbar = ({isScrolling}) => {
 
                <Link to="Contactanos" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items transition">Contáctanos</Link>
 
+               </div>
+
+                <div className="hamburger-menu">
+               <HamburgerMenu/>
                </div>
 
                <div className="social-media-container">
