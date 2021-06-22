@@ -64,10 +64,18 @@
 @media screen and (max-width: 768px) {            
 } 
         
-@media screen and (max-width: 480px) {       
+@media screen and (max-width: 480px) {     
+    .servicios-title{
+        font-size: 36px;
+        padding: 2em 0 2em 0;
+    }
 } 
 
 @media screen and (max-width: 360px){
+.servicios-title{
+    font-size: 30px;
+    padding: 2em 0 2em 0;
+    }
 } 
 
 @media screen and (max-width: 320px){       

@@ -24,9 +24,16 @@
 
 }
 
-.testimonios > h1{
-
-    font-family: 'Fira Sans', sans-serif;
-
+@media screen and (max-width: 480px){
+    .testimonios-title{
+        font-size: 36px;
+        padding: 2em 0 2em 0;
+    }
 }
 
+@media screen and (max-width: 360px){
+    .testimonios-title{
+        font-size: 30px;
+        padding: 2em 0 2em 0;
+    }   
+}

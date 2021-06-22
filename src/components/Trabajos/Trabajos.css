@@ -26,14 +26,20 @@
     color: #fff;
 }
 
-/* @media  screen and (max-width: 1679px) {
-
-    .container-trabajos-2{
-        height: 100vh;
+@media screen and (max-width: 480px) {
+    .trabajos > h1{
+        font-size: 36px;
+        padding-top: 4em;
+        padding-bottom: 2em;
     }
+}
 
-    .background-rojo-trabajos{
-        display: none;
+@media screen and (max-width: 360px) {
+
+    .trabajos > h1{
+        font-size: 30px;
+        padding-top: 4em;
+        padding-bottom: 2em;
     }
         
-    } */
+    }

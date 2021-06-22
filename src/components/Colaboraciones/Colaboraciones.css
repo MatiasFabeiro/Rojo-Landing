@@ -17,5 +17,18 @@
     font-size: 48px;
     font-family: 'Fira Sans', sans-serif;
     padding: 2em 0 2em 0;
+}
 
+@media screen and (max-width: 480px){
+    .colaboraciones > h1 {
+        font-size: 36px;
+        padding: 2em 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .colaboraciones > h1 {
+        font-size: 30px;
+        padding: 2em 0 2em 0;
+    }
 }

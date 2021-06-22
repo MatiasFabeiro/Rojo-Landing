@@ -66,12 +66,19 @@
             
     }
 
-@media  (max-width: 480px) {      
+@media  (max-width: 480px) {
+    .nosotros-title{
+        padding: 1.5em 0 1.5em 0;
+        font-size: 36px;
+    }
 }
   
 @media screen and (max-width: 360px){ 
-                
+    .nosotros-title{
+        padding: 1.5em 0 1.5em 0;
+        font-size: 30px;
+    }    
 }   
 
-@media screen and (max-width: 320px){          
+@media screen and (max-width: 320px){
 }

@@ -25,7 +25,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #FFEFC5;
+    background: #000;
   }
   
   /*
@@ -40,7 +40,7 @@
   /* General sidebar styles */
   .bm-menu {
     background: #FFEFC5;
-    padding: 2.5em 1.5em 0;
+    /* padding: 2.5em 0 1.5em 0; */
     font-size: 1.15em;
   }
   
@@ -81,3 +81,35 @@
     color: #F60000;
 }
 
+@media screen and (max-width: 480px){
+    .bm-burger-button {
+        width: 36px;
+        height: 30px;
+        right: 10%;
+        top: 2.3%;
+      }
+}
+
+@media screen and (max-width: 360px){
+    .bm-burger-button {
+        width: 36px;
+        height: 30px;
+        right: 10%;
+        top: 4%;
+      }
+}
+
+@media screen and (max-width: 320px){
+    .bm-burger-button {
+        width: 36px;
+        height: 30px;
+        right: 10%;
+        top: 5%;
+      }
+
+      .bm-menu {
+        background: #FFEFC5;
+        padding: 0 0 0 0;
+        font-size: 1.15em;
+      }
+}
