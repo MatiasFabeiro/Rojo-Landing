@@ -1,8 +1,8 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     right: 10%;
     top: 3.5%;
   }
@@ -81,19 +81,28 @@
     color: #F60000;
 }
 
+@media screen and (max-width: 768px){
+  .bm-burger-button {
+    width: 24px;
+    height: 24px;
+    right: 10%;
+    top: 3.2%;
+  }
+}
+
 @media screen and (max-width: 480px){
     .bm-burger-button {
-        width: 36px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         right: 10%;
-        top: 2.3%;
+        top: 3%;
       }
 }
 
 @media screen and (max-width: 360px){
     .bm-burger-button {
-        width: 36px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         right: 10%;
         top: 4%;
       }
@@ -101,8 +110,8 @@
 
 @media screen and (max-width: 320px){
     .bm-burger-button {
-        width: 36px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         right: 10%;
         top: 5%;
       }

@@ -82,7 +82,7 @@
     width: 100%;
     height: auto;
     z-index: -10;
-    filter: blur(5px);
+    filter: blur(6px);
     overflow: hidden;
 }
 
@@ -256,6 +256,21 @@
         filter: blur(3px);
         overflow: hidden;
     }
+    
+    .btn-contactanos{
+        font-size: 16px;
+        font-weight: 800;
+        padding: 12px 16px;
+    }
+
+    .banner-text > h1{
+        font-size: 24px;
+    }
+
+    .banner-text > p{
+        width: 100%;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -270,16 +285,16 @@
 
     .banner-logo{
         position: relative;
-        width: 50%;
+        width: 70%;
         height: auto;
-        margin: 10% 0 0 25%;
+        margin: 10% 0 0 15%;
     }
 
     .container-text-and-btn{
         width: 100%;
         height: auto;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
         padding: 5% 0 0 5%;
     }
     
@@ -290,13 +305,13 @@
 
     .banner-text > h1{
         width: 100%;
-        font-size: 30px;
+        font-size: 24px;
         padding-bottom: 0.5em;
     }
     
     .banner-text > p{
         width: 100%;
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .btn-container{
@@ -306,12 +321,12 @@
         height: auto;
         padding: 5% 0 10% 0;
     }
-    
-    .btn-contactanos{
-        font-size: 18px;
+
+    /* .btn-contactanos{
+        font-size: 16px;
         font-weight: 800;
-        padding: 16px 48px;
-    }
+        padding: 12px 16px;
+    } */
 
     
 }
@@ -340,11 +355,5 @@
         height: auto;
         padding: 5% 0 10% 0;
         justify-content: center;
-    }
-    
-    .btn-contactanos{
-        font-size: 16px;
-        font-weight: 800;
-        padding: 16px 48px;
     }
 }

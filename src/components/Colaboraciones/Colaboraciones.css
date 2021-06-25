@@ -24,6 +24,10 @@
         font-size: 36px;
         padding: 2em 0 2em 0;
     }
+
+    .slideshow{
+        padding: 5rem 0 5rem 0;
+    }
 }
 
 @media screen and (max-width: 480px){

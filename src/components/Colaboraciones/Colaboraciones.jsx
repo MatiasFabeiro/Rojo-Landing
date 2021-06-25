@@ -10,8 +10,10 @@ const Colaboraciones = () => {
 
                 <h1>Empresas que confian en nosotros</h1>
 
+                <div className="slideshow">
                 <SlideShow></SlideShow>
-
+                </div>
+                
             </div>
 
         </div>
