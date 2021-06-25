@@ -23,6 +23,8 @@ class HamburgerMenu extends React.Component {
         <Link to="Colaboraciones" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Colaboraciones</Link>
 
         <Link to="Contactanos" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Contáctanos</Link>
+
+        <a href="https://wa.me/5491123859081?" target="blank" className="navbar-sections-items2">WhatsApp</a>
        
         {/* <a id="home" className="menu-item" href="/">Home</a>
        <a id="about" className="menu-item" href="/about">About</a>

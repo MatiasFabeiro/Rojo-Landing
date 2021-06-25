@@ -154,6 +154,19 @@
         width: auto;
         height: 48px;
     }
+
+    .social-media-container-2{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3%;
+    }
+    
+    .social-media-2{
+        margin-right: 15px;
+        width: auto;
+        height: 40px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 360px) {   

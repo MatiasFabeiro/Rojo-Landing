@@ -69,6 +69,11 @@
         font-size: 36px;
         padding: 2em 0 2em 0;
     }
+
+    .imagen-servicio{
+        width: 95%;
+        height: auto;
+    }
 } 
 
 @media screen and (max-width: 360px){

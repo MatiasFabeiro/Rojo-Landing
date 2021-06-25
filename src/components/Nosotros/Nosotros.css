@@ -71,6 +71,12 @@
         padding: 1.5em 0 1.5em 0;
         font-size: 36px;
     }
+
+    .nosotros-col > img{
+        width: 95%;
+        height: auto;
+        padding: 1em;
+    }
 }
   
 @media screen and (max-width: 360px){ 

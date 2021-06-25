@@ -6,6 +6,8 @@ import SlideShowImg3 from '../../media/colaboraciones/BerY.png'
 import SlideShowImg4 from '../../media/colaboraciones/GomezAsociados.png'
 import SlideShowImg5 from '../../media/colaboraciones/Ceowner.png'
 import SlideShowImg6 from '../../media/colaboraciones/MyBoxCool.png'
+import SlideShowImg7 from '../../media/colaboraciones/Logo1.png'
+import SlideShowImg8 from '../../media/colaboraciones/Logo2.png'
 
 const SlideShow = () => {
     return (
@@ -30,6 +32,12 @@ const SlideShow = () => {
                     <div class="slide-slideshow">
                         <img src={SlideShowImg6} height="100" width="250" alt="" />
                     </div>
+                    <div class="slide-slideshow">
+                        <img src={SlideShowImg7} height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src={SlideShowImg8} height="100" width="250" alt="" />
+                    </div>
 
                     <div class="slide-slideshow">
                         <img src={SlideShowImg1} height="100" width="250" alt="" />
@@ -48,6 +56,12 @@ const SlideShow = () => {
                     </div>
                     <div class="slide-slideshow">
                         <img src={SlideShowImg6} height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src={SlideShowImg7} height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide-slideshow">
+                        <img src={SlideShowImg8} height="100" width="250" alt="" />
                     </div>
                     {/* <div class="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />

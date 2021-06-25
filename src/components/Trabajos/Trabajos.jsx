@@ -11,7 +11,7 @@ const Trabajos = () => {
                 <div className="trabajos">
 
                     <h1>Nuestra magia</h1>
-
+                    
                     <SliderTrabajos/>
             
                 </div>
