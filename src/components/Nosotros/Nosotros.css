@@ -1,9 +1,9 @@
-.background-rojo-nosotros{
+/* .background-rojo-nosotros{
 
     width: 100%;
     height: 10vh;
     background-color: #F60000;
-}
+} */
 
 .nosotros-title{
     font-family: 'Fira Sans', sans-serif;
@@ -67,6 +67,14 @@
     }
 
 @media  (max-width: 480px) {
+    .container-nosotros{
+        width: 100%;
+        height: auto;
+        padding-top: 2em;
+        background-color: #FFEFC5;
+        overflow: hidden;
+    }
+
     .nosotros-title{
         padding: 1.5em 0 1.5em 0;
         font-size: 36px;
@@ -83,7 +91,16 @@
     .nosotros-title{
         padding: 1.5em 0 1.5em 0;
         font-size: 30px;
-    }    
+    }  
+    
+    .nosotros-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 5rem;
+    }
 }   
 
 @media screen and (max-width: 320px){

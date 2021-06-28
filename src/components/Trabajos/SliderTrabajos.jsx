@@ -3,10 +3,11 @@ import Slider from "react-slick";
 import "./SliderTrabajos.css";
 import Trabajo1 from "../../media/trabajos/marco1_completo.png";
 import Trabajo2 from "../../media/trabajos/marco2_completo.png";
+import Trabajo3 from "../../media/trabajos/marco3.jpg"
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-const images = [Trabajo1, Trabajo2, Trabajo1, Trabajo2];
+const images = [Trabajo1, Trabajo2, Trabajo3, Trabajo2];
 
 function SliderTrabajos() {
     const NextArrow = ({ onClick }) => {

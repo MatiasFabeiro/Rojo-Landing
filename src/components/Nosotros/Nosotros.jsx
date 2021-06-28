@@ -12,7 +12,7 @@ const Nosotros = () => {
     return (
         <div id="Nosotros">
 
-            <div className="background-rojo-nosotros"></div>
+            {/* <div className="background-rojo-nosotros"></div> */}
 
             <div className="background-title">
 
