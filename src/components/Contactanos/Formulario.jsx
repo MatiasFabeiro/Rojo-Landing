@@ -1,7 +1,24 @@
-import React from 'react'
+import {React, useState } from 'react'
 import './Formulario.css'
 
 const Formulario = () => {
+
+    const [formulario, setFormulario] = useState({name:"", email:"", message:""})
+
+    const handleChange = (e) => {
+        setFormulario({...formulario, [e.target.name]:e.target.value})
+    }
+
+    const sendForm = (e) => {
+        e.preventDefault()
+        const email = {to:"matiasfabeiro@gmail.com", subject:"Tenes una nueva consulta desde la pagina web", template:"", 
+        message:'Te ha llegado una consulta de' + formulario.name + '\n Mail de contacto:' + formulario.email + '\n Mensaje:' + formulario.message}
+        console.log(email)
+        fetch("http://apinew-test.gloouds.com/api/emailsystem", {method:"PUT", mode:"cors", body:email}).then((res)=>{
+            console.log(res)
+        }).catch(e=>console.log(e))
+        show_alert()
+    }
 
     function show_alert() {
 
@@ -19,25 +36,25 @@ const Formulario = () => {
                 <label className="form-label">
                     Nombre y apellido:
                 </label>
-                <input type="text" name="nombre" placeholder="Ej: Juan Gutierrez" className="name-field"/>
+                <input type="text" name="name" onChange={(e)=>handleChange(e)} placeholder="Ej: Juan Gutierrez" className="name-field"/>
                 </div>
 
                 <div className="email-container">
                 <label className="form-label">    
                     Email:
                 </label>
-                <input type="text" name="email" placeholder="Ej: hola@gmail.com" className="email-field"/>
+                <input type="text" name="email" onChange={(e)=>handleChange(e)} placeholder="Ej: hola@gmail.com" className="email-field"/>
                 </div>
 
                 <div className="textarea-container">
                 <label className="form-label">
                     Mensaje:
                 </label>
-                <textarea placeholder="Escribe tu mensaje aqui..." className="textarea-field"/>
+                <textarea name="message" onChange={(e)=>handleChange(e)} placeholder="Escribe tu mensaje aqui..." className="textarea-field"/>
                 </div>
 
                 <div className="container-input">
-                <input type="submit" value="Enviar" data-wait="Enviando..." className="submit" onClick={show_alert}/>
+                <input type="submit" value="Enviar" data-wait="Enviando..." className="submit" onClick={ (e) => sendForm(e)}/>
                 </div>
             </form>
 
