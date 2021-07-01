@@ -1,4 +1,4 @@
-import {React, useState } from 'react'
+import {React, useState} from 'react'
 import './Formulario.css'
 
 const Formulario = () => {
@@ -19,7 +19,8 @@ const Formulario = () => {
         fetch("http://apinew-test.gloouds.com/api/emailsystem", {method:"POST", body:dataSend}).then((res)=>{
             console.log(res)
         }).catch(e=>console.log(e))
-        show_alert()
+        window.location.reload(true)
+        show_alert();
     }
 
     function show_alert() {
@@ -30,8 +31,6 @@ const Formulario = () => {
 
     return (
         <div>
-
-        
             <form className="form-container">
 
                 <div className="name-container">
@@ -56,10 +55,9 @@ const Formulario = () => {
                 </div>
 
                 <div className="container-input">
-                <input type="submit" value="Enviar" data-wait="Enviando..." className="submit" onClick={ (e) => sendForm(e)}/>
+                <button type="submit" className="submit" onClick={ (e) => sendForm(e) }>Enviar</button>
                 </div>
             </form>
-
         </div>
     )
 }
