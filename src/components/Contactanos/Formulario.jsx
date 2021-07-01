@@ -11,10 +11,12 @@ const Formulario = () => {
 
     const sendForm = (e) => {
         e.preventDefault()
-        const email = {to:"matiasfabeiro@gmail.com", subject:"Tenes una nueva consulta desde la pagina web", template:"", 
-        message:'Te ha llegado una consulta de' + formulario.name + '\n Mail de contacto:' + formulario.email + '\n Mensaje:' + formulario.message}
+        const email = {to:"matiasfabeiro@gmail.com", subject:"Tenes una nueva consulta desde la pagina web", template:"", _method:"PUT", 
+        message:'Te ha llegado una consulta de ' + formulario.name + '\n\n Mail de contacto: ' + formulario.email + '\n\n Mensaje: ' + formulario.message}
         console.log(email)
-        fetch("http://apinew-test.gloouds.com/api/emailsystem", {method:"PUT", mode:"cors", body:email}).then((res)=>{
+        let dataSend = new FormData();
+        for (let key in email) { dataSend.append(key, email[key]); }
+        fetch("http://apinew-test.gloouds.com/api/emailsystem", {method:"POST", body:dataSend}).then((res)=>{
             console.log(res)
         }).catch(e=>console.log(e))
         show_alert()

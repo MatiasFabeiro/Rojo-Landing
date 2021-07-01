@@ -33,6 +33,8 @@ function SliderTrabajos() {
   // let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
+  const [currentImage, setCurrentImage] = useState(0);
+
   function openModal() {
     setIsOpen(true);
     document.body.style.overflow = 'hidden';
@@ -116,7 +118,7 @@ function SliderTrabajos() {
           >
             <img
               src={img.banner}
-              onClick={() => openModal()}
+              onClick={() => {setCurrentImage(index); openModal()}}
               alt="Slider con imagenes de trabajos"
             />
 
@@ -130,11 +132,13 @@ function SliderTrabajos() {
               className="Modal"
               overlayClassName="Overlay"
             >
-
-            <img 
-              src={img.contenido} 
-              alt="Documento con trabajo detallado"
-              />
+            <div className="imgModal-container">
+              <img 
+                src={images[currentImage].contenido} 
+                className="imgModal"
+                alt="Documento con trabajo detallado"
+                />
+            </div>
 
             </Modal>
           </div>
