@@ -11,7 +11,7 @@ const Formulario = () => {
 
     const sendForm = (e) => {
         e.preventDefault()
-        const email = {to:"matiasfabeiro@gmail.com", subject:"Tenes una nueva consulta desde la pagina web", template:"", _method:"PUT", 
+        const email = {to:"contacto@rojo.agency", subject:"Tenes una nueva consulta desde la pagina web", template:"", _method:"PUT", 
         message:'Te ha llegado una consulta de ' + formulario.name + '\n\n Mail de contacto: ' + formulario.email + '\n\n Mensaje: ' + formulario.message}
         console.log(email)
         let dataSend = new FormData();
