@@ -1,28 +1,36 @@
-import React from 'react';
+import {React, useState} from 'react';
 import './HamburgerMenu.css';
 import { stack as Menu } from 'react-burger-menu'
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
-class HamburgerMenu extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
+const HamburgerMenu = () => {
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  function openBurger (){
+    setIsOpen(true)
+    document.body.style.overflow = 'hidden';
   }
+  
+  function closeBurger (){
+      setIsOpen(false)
+      document.body.style.overflow = 'unset';
+   }
 
-  render () {
     return (
-        <div className="hamburger-menu">
-      <Menu right>
-        <Link to="Servicios" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Servicios</Link>
+        <div className="hamburger-menu" onClick={()=>openBurger()}>
+      <Menu right isOpen={isOpen}>
+        <Link to="Servicios" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Servicios</Link>
 
-        <Link to="Trabajos" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Trabajos</Link>
+        <Link to="Trabajos" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Trabajos</Link>
 
-        <Link to="Nosotros" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Nosotros</Link>
+        <Link to="Nosotros" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Nosotros</Link>
 
-        <Link to="Testimonios" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Testimonios</Link>
+        <Link to="Testimonios" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Testimonios</Link>
 
-        <Link to="Colaboraciones" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Colaboraciones</Link>
+        <Link to="Colaboraciones" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Colaboraciones</Link>
 
-        <Link to="Contactanos" spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Contáctanos</Link>
+        <Link to="Contactanos" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Contáctanos</Link>
 
         <a href="https://wa.me/5491123859081?" target="blank" className="navbar-sections-items2">WhatsApp</a>
        
@@ -33,8 +41,7 @@ class HamburgerMenu extends React.Component {
 
       </Menu>
       </div>
-    );
-  }
+    )
 }
 
 export default HamburgerMenu;

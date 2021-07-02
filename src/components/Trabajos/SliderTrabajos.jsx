@@ -9,6 +9,7 @@ import Contenido2 from "../../media/trabajos/marco2_completo.png";
 import Contenido3 from "../../media/trabajos/marco3.jpg";
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { ImCross } from "react-icons/im";
 import Modal from "react-modal";
 
 const images = [
@@ -128,10 +129,18 @@ function SliderTrabajos() {
               onRequestClose={closeModal}
               style={customModalStyles}
               shouldCloseOnEsc={true}
+              shouldCloseOnOverlayClick={true}
               // contentLabel="Example Modal"
               className="Modal"
               overlayClassName="Overlay"
+              ariaHideApp={false}
             >
+            <div className="close-modal-container">
+              <ImCross 
+              className="modal-x" 
+              size={20} 
+              onClick={() => closeModal()}/>
+            </div>
             <div className="imgModal-container">
               <img 
                 src={images[currentImage].contenido} 
@@ -139,7 +148,6 @@ function SliderTrabajos() {
                 alt="Documento con trabajo detallado"
                 />
             </div>
-
             </Modal>
           </div>
         ))}

@@ -12,97 +12,97 @@ import SlideShowImg8 from '../../media/colaboraciones/Logo2.png'
 const SlideShow = () => {
     return (
         <div className="slideshow-container">
-            <div class="slider-slideshow">
-                <div class="slide-slideshow-track">
-                    <div class="slide-slideshow">
+            <div className="slider-slideshow">
+                <div className="slide-slideshow-track">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg1} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg2} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg3} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg4} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg5} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg6} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg7} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg8} height="100" width="250" alt="" />
                     </div>
 
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg1} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg2} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg3} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg4} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg5} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg6} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg7} height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src={SlideShowImg8} height="100" width="250" alt="" />
                     </div>
-                    {/* <div class="slide-slideshow">
+                    {/* <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
                     </div>
-                    <div class="slide-slideshow">
+                    <div className="slide-slideshow">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
                     </div> */}
                 </div>

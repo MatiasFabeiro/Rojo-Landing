@@ -53,10 +53,9 @@
     position: relative;
     width: 90%;
     height: 100%;
-    background-color: #fff;
-    z-index: 13;
+    z-index: 1001;
     overflow:auto;
-    
+    background-color: rgba(0, 0, 0, 0.055);
   }
 
   .Overlay {
@@ -66,7 +65,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.1);
-    z-index: 12;
+    z-index: 1001;
   }
 
   .imgModal-container{
@@ -77,6 +76,17 @@
 
   .imgModal{
     padding: 15rem 0 0 0;
+  }
+
+  .close-modal-container{
+      display: flex;
+      justify-content:flex-end;
+      padding: 1.5rem 1.5rem 0 0;
+  }
+
+  .modal-x{
+    color: #fff;
+    cursor: pointer;
   }
 
 
@@ -110,12 +120,22 @@
     .arrow2 {
       display: none;
     }
+
+    .imgModal{
+      width: 95%;
+      padding: 5rem 0 0 0;
+    }
   }
 
   @media screen and (max-width: 768px){
     .slide2 img {
       width: 70%;
       height: auto;
+    }
+
+    .imgModal{
+      width: 95%;
+      padding: 15rem 0 0 0;
     }
   }
 
@@ -124,6 +144,16 @@
       width: 100%;
       height: auto;
       padding: 1.5rem 0 5rem 0;
+    }
+
+    .Modal {
+      width: 100%;
+      height: 100%;
+    }
+
+    .imgModal{
+      width: 95%;
+      padding: 1rem 0 0 0;
     }
   }
 
@@ -139,5 +169,10 @@
       left: 0%;
       top: 50%;
       margin: 0 0 0 0.5%;
+    }
+
+    .imgModal{
+      width: 95%;
+      padding: 8rem 0 0 0;
     }
   }
