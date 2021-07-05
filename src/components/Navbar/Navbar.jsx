@@ -37,8 +37,8 @@ const Navbar = ({isScrolling}) => {
 
                </div>
 
-                <div className="hamburger-menu">
-               <HamburgerMenu/>
+               <div className="HamburgerMenu">
+                    <HamburgerMenu/>
                </div>
 
                <div className="social-media-container">

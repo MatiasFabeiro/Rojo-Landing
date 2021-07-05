@@ -81,6 +81,12 @@
     color: #F60000;
 }
 
+@media screen and (max-width: 1024px){
+  .hamburger-menu{
+    display: block;
+  }
+}
+
 @media screen and (max-width: 768px){
   .bm-burger-button {
     width: 24px;

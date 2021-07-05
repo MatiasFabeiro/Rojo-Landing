@@ -10,16 +10,19 @@ const HamburgerMenu = () => {
   function openBurger (){
     setIsOpen(true)
     document.body.style.overflow = 'hidden';
+    console.log('abrir Burger')
   }
   
   function closeBurger (){
       setIsOpen(false)
       document.body.style.overflow = 'unset';
+      console.log('cerrar Burger')
    }
 
+  //  useEffect(()=>{ setIsOpen(false) },[])
+
     return (
-        <div className="hamburger-menu" onClick={()=>openBurger()}>
-      <Menu right isOpen={isOpen}>
+      <Menu right isOpen={isOpen} onOpen={()=>openBurger()} onClose={()=>closeBurger()} className="hamburger-menu">
         <Link to="Servicios" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Servicios</Link>
 
         <Link to="Trabajos" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Trabajos</Link>
@@ -40,7 +43,6 @@ const HamburgerMenu = () => {
        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
 
       </Menu>
-      </div>
     )
 }
 

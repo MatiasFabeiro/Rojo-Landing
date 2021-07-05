@@ -92,10 +92,6 @@
     display: none;
 }
 
-.hamburger-menu{
-    display: none;
-}
-
 @media screen and (max-width: 1450px){
     .social-media-container{
         display: none;
@@ -113,8 +109,8 @@
         display: none;
     }
 
-    .hamburger-menu{
-        display: flex;
+    .HamburgerMenu{
+        display: block;
     }
 }
 
