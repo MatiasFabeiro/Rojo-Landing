@@ -22,6 +22,7 @@ const HamburgerMenu = () => {
   //  useEffect(()=>{ setIsOpen(false) },[])
 
     return (
+    <div>
       <Menu right isOpen={isOpen} onOpen={()=>openBurger()} onClose={()=>closeBurger()} className="hamburger-menu">
         <Link to="Servicios" onClick={()=>closeBurger()} spy={true} smooth={true} offset={0} duration={500} className="navbar-sections-items2 transition">Servicios</Link>
 
@@ -43,6 +44,7 @@ const HamburgerMenu = () => {
        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
 
       </Menu>
+    </div>
     )
 }
 
