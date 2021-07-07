@@ -75,7 +75,8 @@
   }
 
   .imgModal{
-    padding: 15rem 0 0 0;
+    width: 99%;
+    padding: 3rem 0 0 0;
   }
 
   .close-modal-container{
@@ -85,6 +86,7 @@
   }
 
   .modal-x{
+    position: relative;
     color: #fff;
     cursor: pointer;
   }

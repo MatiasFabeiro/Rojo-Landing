@@ -1,12 +1,18 @@
 import { React, useState, Component } from "react";
 import Slider from "react-slick";
 import "./SliderTrabajos.css";
-import Trabajo1 from "../../media/trabajos/marco1_completo.png";
-import Trabajo2 from "../../media/trabajos/marco2_completo.png";
-import Trabajo3 from "../../media/trabajos/marco3.jpg";
-import Contenido1 from "../../media/trabajos/marco1_completo.png";
-import Contenido2 from "../../media/trabajos/marco2_completo.png";
-import Contenido3 from "../../media/trabajos/marco3.jpg";
+import Trabajo1 from "../../media/trabajos/Ceowner.png";
+import Trabajo2 from "../../media/trabajos/BerY.png";
+import Trabajo3 from "../../media/trabajos/GLooUDS.png";
+import Trabajo4 from "../../media/trabajos/GomezAsociados.png";
+import Trabajo5 from "../../media/trabajos/TXC-SRL.png";
+import Trabajo6 from "../../media/trabajos/SakuraSkincare.png";
+import Contenido1 from "../../media/trabajos/Secciones/Doc_ceowner.png";
+import Contenido2 from "../../media/trabajos/Secciones/Doc_bery.png";
+import Contenido3 from "../../media/trabajos/Secciones/Doc_Gloouds.png";
+import Contenido4 from "../../media/trabajos/Secciones/Doc_GYA.png";
+import Contenido5 from "../../media/trabajos/Secciones/TXC-SRL_DOC.png";
+import Contenido6 from "../../media/trabajos/Secciones/Doc_Sakura.png";
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { ImCross } from "react-icons/im";
@@ -16,7 +22,9 @@ const images = [
   {id: 0, banner: Trabajo1, contenido: Contenido1},
   {id: 1, banner: Trabajo2, contenido: Contenido2},
   {id: 2, banner: Trabajo3, contenido: Contenido3},
-  {id: 3, banner: Trabajo2, contenido: Contenido1},
+  {id: 3, banner: Trabajo4, contenido: Contenido4},
+  {id: 4, banner: Trabajo5, contenido: Contenido5},
+  {id: 5, banner: Trabajo6, contenido: Contenido6},
 ];
 
 const customModalStyles = {
