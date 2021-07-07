@@ -1,12 +1,16 @@
 import { React, useState } from "react";
 import Slider from "react-slick";
 import "./SliderTestimonios.css";
-import Testimonio1 from "../../media/opiniones/muestra.png";
+import Testimonio1 from "../../media/opiniones/valorations_ceowner.png";
+import Testimonio2 from "../../media/opiniones/valorations_gloouds.png";
+import Testimonio3 from "../../media/opiniones/valorations_bery.png";
+import Testimonio4 from "../../media/opiniones/valorations_TXCSRL.png";
+import Testimonio5 from "../../media/opiniones/valorations_sakuraskinkare.png";
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
-const images = [Testimonio1, Testimonio1, Testimonio1, Testimonio1];
+const images = [Testimonio1, Testimonio2, Testimonio3, Testimonio4, Testimonio5];
 
 function SliderTestimonios() {
 
