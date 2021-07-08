@@ -43,7 +43,7 @@
 .navbar-sections-items{
     padding-right: 48px;
     font-family: 'Fira Sans', sans-serif;
-    color: #000;
+    color: #FFEFC5;
     font-size: 16px;
     line-height: 60px;
     letter-spacing: 1px;
@@ -52,6 +52,11 @@
 
 .navbar-sections-items:hover{
     color: #F60000;
+}
+
+.scrolling-items{
+    color: #000;
+    transition: all 0.5s ease;
 }
 
 .social-media-container{
@@ -89,6 +94,14 @@
 }
 
 .HamburgerMenu{
+    display: none;
+}
+
+.visible{
+    display: inline-block;
+}
+
+.invisible{
     display: none;
 }
 
