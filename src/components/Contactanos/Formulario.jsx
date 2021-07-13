@@ -18,11 +18,10 @@ const Formulario = () => {
         for (let key in email) { dataSend.append(key, email[key]); }
         fetch("http://apinew-test.gloouds.com/api/emailsystem", {method:"POST", body:dataSend}).then((res)=>{
             console.log(res)
+            window.location.reload()
         }).catch(e=>console.log(e))
-        window.location.reload(true)
         show_alert();
     }
-
     function show_alert() {
 
         alert("Tu mensaje ha sido enviado!")
