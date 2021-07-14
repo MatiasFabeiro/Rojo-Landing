@@ -10,6 +10,8 @@ import Colaboraciones from './components/Colaboraciones/Colaboraciones.jsx'
 // import PosteosIG from './components/PosteosIG/PosteosIG.jsx'
 import Contactanos from './components/Contactanos/Contactanos.jsx'
 import Footer from './components/Footer/Footer.jsx'
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function App() {
 

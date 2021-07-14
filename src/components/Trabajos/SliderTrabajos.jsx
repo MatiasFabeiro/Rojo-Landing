@@ -1,4 +1,5 @@
 import { React, useState, Component } from "react";
+import { Document, Page } from "react-pdf";
 import Slider from "react-slick";
 import "./SliderTrabajos.css";
 import Trabajo1 from "../../media/trabajos/Ceowner.png";
@@ -7,12 +8,12 @@ import Trabajo3 from "../../media/trabajos/GLooUDS.png";
 import Trabajo4 from "../../media/trabajos/GomezAsociados.png";
 import Trabajo5 from "../../media/trabajos/TXC-SRL.png";
 import Trabajo6 from "../../media/trabajos/SakuraSkincare.png";
-import Contenido1 from "../../media/trabajos/Secciones/Doc_ceowner.png";
-import Contenido2 from "../../media/trabajos/Secciones/Doc_bery.png";
-import Contenido3 from "../../media/trabajos/Secciones/Doc_Gloouds.png";
-import Contenido4 from "../../media/trabajos/Secciones/Doc_GYA.png";
-import Contenido5 from "../../media/trabajos/Secciones/TXC-SRL_DOC.png";
-import Contenido6 from "../../media/trabajos/Secciones/Doc_Sakura.png";
+import Contenido1 from "../../media/trabajos/Secciones/Doc_ceowner.pdf";
+import Contenido2 from "../../media/trabajos/Secciones/Doc_bery.pdf";
+import Contenido3 from "../../media/trabajos/Secciones/Doc_Gloouds.pdf";
+import Contenido4 from "../../media/trabajos/Secciones/Doc_GYA.pdf";
+import Contenido5 from "../../media/trabajos/Secciones/TXC-SRL_DOC.pdf";
+import Contenido6 from "../../media/trabajos/Secciones/Doc_Sakura.pdf";
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { ImCross } from "react-icons/im";
@@ -43,6 +44,13 @@ function SliderTrabajos() {
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const [currentImage, setCurrentImage] = useState(0);
+
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   function openModal() {
     setIsOpen(true);
@@ -150,11 +158,13 @@ function SliderTrabajos() {
               onClick={() => closeModal()}/>
             </div>
             <div className="imgModal-container">
-              <img 
-                src={images[currentImage].contenido} 
+              <Document 
+                file={images[currentImage].contenido}
+                onLoadSuccess={onDocumentLoadSuccess}
                 className="imgModal"
-                alt="Documento con trabajo detallado"
-                />
+                alt="Documento con trabajo detallado">
+                  <Page pageNumber={pageNumber}/>
+                </Document>
             </div>
             </Modal>
           </div>
