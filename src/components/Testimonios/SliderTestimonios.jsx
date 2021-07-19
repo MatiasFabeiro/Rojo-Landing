@@ -6,11 +6,12 @@ import Testimonio2 from "../../media/opiniones/valorations_gloouds.png";
 import Testimonio3 from "../../media/opiniones/valorations_bery.png";
 import Testimonio4 from "../../media/opiniones/valorations_TXCSRL.png";
 import Testimonio5 from "../../media/opiniones/valorations_sakuraskinkare.png";
+import Testimonio6 from "../../media/opiniones/valorations_GYA.png";
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
-const images = [Testimonio1, Testimonio2, Testimonio3, Testimonio4, Testimonio5];
+const images = [Testimonio1, Testimonio2, Testimonio3, Testimonio4, Testimonio5, Testimonio6];
 
 function SliderTestimonios() {
 

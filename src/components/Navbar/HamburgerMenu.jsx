@@ -12,7 +12,7 @@ const HamburgerMenu = () => {
     document.body.style.overflow = 'hidden';
     console.log('abrir Burger')
   }
-  
+
   function closeBurger (){
       setIsOpen(false)
       document.body.style.overflow = 'unset';
