@@ -14,8 +14,6 @@ const PosteosIG = () => {
             <Row>
               <Col>
 
-                
-
               </Col>
             </Row>
           </Container>
