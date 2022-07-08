@@ -1,0 +1,57 @@
+{
+  "name": "rojo-landing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "install": "^0.13.0",
+    "node-sass": "^4.14.1",
+    "npm": "^7.16.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "react-grid-system": "^7.1.2",
+    "react-icons": "^4.2.0",
+    "react-modal": "^3.14.3",
+    "react-pdf": "^5.3.2",
+    "react-responsive-carousel": "^3.2.18",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-slick": "^0.28.1",
+    "react-slideshow-image": "^3.4.6",
+    "react-spring-carousel": "^0.0.4",
+    "renderer": "^0.1.5",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
