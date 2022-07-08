@@ -1,0 +1,87 @@
+.blue-line{
+    width: 100%;
+    height: 10vh;
+    padding: 2.5em 0 2.5em 0;
+    background-color: #004056;
+}
+
+.servicios-title{
+    width: 100%;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    color: #ffffff;
+    background-color: #F60000;
+}
+
+.container-servicios{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0 5rem 0;
+    background-image: url(/src/media/servicios/background_texture.jpg);
+    overflow: hidden;
+}
+
+.servicios-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.servicios-col{
+    padding-bottom: 2.5em; 
+    padding: 0 5% 0 5%;
+}
+
+.servicios-col > h2{
+    padding-bottom: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.servicios-col > p{
+    font-size: 16;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.imagen-servicio{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1680px) {
+}
+
+@media screen and (max-width: 1280px) {  
+}
+
+@media screen and (max-width: 1024px) {
+}
+    
+@media screen and (max-width: 768px) {            
+} 
+        
+@media screen and (max-width: 480px) {     
+    .servicios-title{
+        font-size: 36px;
+        padding: 2em 0 2em 0;
+    }
+
+    .imagen-servicio{
+        width: 95%;
+        height: auto;
+    }
+} 
+
+@media screen and (max-width: 360px){
+.servicios-title{
+    font-size: 30px;
+    padding: 2em 0 2em 0;
+    }
+} 
+
+@media screen and (max-width: 320px){       
+}

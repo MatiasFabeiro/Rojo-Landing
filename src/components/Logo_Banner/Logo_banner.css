@@ -1,0 +1,359 @@
+.banner-container{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: flex;
+    /* background-image: url(../../media/inicio/Imagenes/max-williams-2aIYMoayjtY-unsplash.jpg); */
+    /* background-size: cover; */
+    overflow: hidden;
+}
+
+.banner-logo{
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+}
+
+.banner-image{
+    width: 70%;
+    height: auto;
+}
+
+.container-text-and-btn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    height: auto;
+    padding: 10% 0 0 0;
+}
+
+.banner-text > h1{
+    width: 75%;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.banner-text > p{
+    width: 65%;
+    font-size: 24px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #fff;
+}
+
+
+.btn-container{
+    object-fit: contain;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 2.5% 0 1% 0;
+    /* flex-direction: left;
+    justify-content: center; */
+}
+
+.btn-contactanos{
+
+    color: #004056;
+    background-color: #FFEFC5;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 16px 48px;
+    border-radius: 10px;
+    outline: 0;
+    /* box-shadow: 0px 3px 3px grey; */
+    cursor: pointer;
+}
+
+.slider-banner{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    filter: blur(6px);
+    overflow: hidden;
+}
+
+.wdt-slider{
+    width: 100%;
+    height: auto;
+}
+
+.img-slider{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1680px) {
+    .slider-banner{
+        position: fixed;
+        width: 150%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .slider-banner{
+        position: fixed;
+        width: 200%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-banner{
+        position: fixed;
+        width: 250%;
+        height: auto;
+    }
+
+    .banner-logo{
+        position: relative;
+        width: 50%;
+        height: auto;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-bottom: 6%;
+    }
+    
+    .banner-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-text-and-btn{
+        width: 50%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner-text{
+        height: auto;
+        padding: 15% 0 0 10%;
+    }
+
+    .banner-text > h1{
+        width: 75%;
+        font-size: 32px;
+        padding-bottom: 0.5em;
+    }
+    
+    .banner-text > p{
+        width: 65%;
+        font-size: 18px;
+    }
+
+    .btn-container{
+        object-fit: contain;
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 2.5% 0 1% 10%;
+    }
+
+    .btn-contactanos{
+        font-size: 16px;
+        font-weight: 800;
+        padding: 16px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider-banner{
+        position: fixed;
+        width: 350%;
+        height: auto;
+        z-index: -10;
+        filter: blur(3px);
+        overflow: hidden;
+    }
+
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .banner-logo{
+        position: relative;
+        width: 65%;
+        height: auto;
+        margin: 0 0 0 15%;
+        padding-top: 15%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .banner-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-text-and-btn{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5% 0 0 2%;
+    }
+    
+    .banner-text{
+        width: 90%;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    .banner-text > h1{
+        width: 100%;
+        font-size: 40px;
+        padding-bottom: 0.5em;
+    }
+    
+    .banner-text > p{
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .btn-container{
+        object-fit: contain;
+        display: flex;
+        width: 90%;
+        height: auto;
+        padding: 5% 0 10% 0;
+        justify-content: center;
+    }
+    
+    .btn-contactanos{
+        font-size: 20px;
+        font-weight: 800;
+        padding: 16px 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider-banner{
+        position: fixed;
+        width: 400%;
+        height: auto;
+        z-index: -10;
+        filter: blur(3px);
+        overflow: hidden;
+    }
+    
+    .btn-contactanos{
+        font-size: 16px;
+        font-weight: 800;
+        padding: 12px 16px;
+    }
+
+    .banner-text > h1{
+        font-size: 24px;
+    }
+
+    .banner-text > p{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .slider-banner{
+        position: fixed;
+        width: 400%;
+        height: auto;
+        z-index: -10;
+        filter: blur(3px);
+        overflow: hidden;
+    }
+
+    .banner-logo{
+        position: relative;
+        width: 70%;
+        height: auto;
+        margin: 10% 0 0 15%;
+    }
+
+    .container-text-and-btn{
+        width: 100%;
+        height: auto;
+        /* justify-content: center;
+        align-items: center; */
+        padding: 5% 0 0 5%;
+    }
+    
+    .banner-text{
+        width: 90%;
+        height: auto;
+    }
+
+    .banner-text > h1{
+        width: 100%;
+        font-size: 24px;
+        padding-bottom: 0.5em;
+    }
+    
+    .banner-text > p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btn-container{
+        object-fit: contain;
+        display: flex;
+        width: 90%;
+        height: auto;
+        padding: 5% 0 10% 0;
+    }
+
+    /* .btn-contactanos{
+        font-size: 16px;
+        font-weight: 800;
+        padding: 12px 16px;
+    } */
+
+    
+}
+
+@media screen and (max-width: 320px){
+    .banner-logo{
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin: 10% 0 0 20%;
+    }
+    
+    .banner-text > h1{
+        width: 100%;
+        font-size: 22px;
+        padding-bottom: 0.5em;
+    }
+    
+    .banner-text > p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .btn-container{
+        width: 90%;
+        height: auto;
+        padding: 5% 0 10% 0;
+        justify-content: center;
+    }
+}

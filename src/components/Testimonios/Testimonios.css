@@ -1,0 +1,43 @@
+.container-testimonios{
+
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/src/media/opiniones/background_blue.jpg);
+    background-repeat: repeat;
+
+}
+
+.testimonios-title{
+    width: 100%;
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    background-color: #F60000;
+    padding: 2em 0 2em 0;
+}
+
+.testimonios-slider{
+
+    padding-top: 5rem;
+
+}
+
+@media screen and (max-width: 480px){
+    .testimonios-title{
+        font-size: 36px;
+        padding: 2em 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .testimonios-title{
+        font-size: 30px;
+        padding: 2em 0 2em 0;
+    }   
+
+    .testimonios-slider{
+        padding-top: 2rem;
+    }
+}

@@ -1,0 +1,38 @@
+.colaboraciones-container{
+
+    width: 100%;
+    height: auto;
+    background-color: #F60000;
+    color: #FFFFFF;
+
+}
+
+.colaboraciones{
+
+    text-align: center;
+
+}
+
+.colaboraciones > h1 {
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 2em 0 2em 0;
+}
+
+@media screen and (max-width: 480px){
+    .colaboraciones > h1 {
+        font-size: 36px;
+        padding: 2em 0 2em 0;
+    }
+
+    .slideshow{
+        padding: 1rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .colaboraciones > h1 {
+        font-size: 30px;
+        padding: 2em 0 2em 0;
+    }
+}

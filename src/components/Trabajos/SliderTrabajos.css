@@ -1,0 +1,195 @@
+.slider2 {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0 10rem 0;
+  }
+  
+  .slide2 img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .slide2 {
+    transform: scale(0.3);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  .activeSlide2 {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .arrow2 {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow2 svg {
+    transition: color 300ms;
+  }
+  
+  .arrow2 svg:hover {
+    color: #68edff;
+  }
+  
+  .next2 {
+    right: 0%;
+    top: 50%;
+    margin: 0 3rem 0 0;
+  }
+  
+  .prev2 {
+    left: 0%;
+    top: 50%;
+    margin: 0 0 0 3rem;
+  }
+
+
+  .Modal {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    z-index: 1001;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.055);
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+  }
+
+  .imgModal-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
+  .imgModal{
+    /* width: 99%; */
+    padding: 3rem 0 0 1%;
+  }
+
+  .react-pdf__Page__canvas{
+    width: 99% !important;
+    height: auto !important;
+    margin: 0 0 0 0;
+  }
+
+  .react-pdf__Page__textContent{
+    width: 99% !important;
+    height: auto !important;
+  }
+
+  .close-modal-container{
+      display: flex;
+      justify-content:flex-end;
+      padding: 1.5rem 1.5rem 0 0;
+  }
+
+  .modal-x{
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+
+  @media screen and (max-width: 1280px){
+    .slide2 {
+      transform: scale(0.5);
+      transition: transform 300ms;
+      opacity: 0.5;
+    }
+    
+    .activeSlide2 {
+      transform: scale(1.5);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+    .next2 {
+      right: 0%;
+      top: 50%;
+      margin: 0 4.5rem 0 0;
+    }
+    
+    .prev2 {
+      left: 0%;
+      top: 50%;
+      margin: 0 0 0 0.5rem;
+    }
+
+    .arrow2 {
+      display: none;
+    }
+
+    /* .imgModal{
+      width: 95%;
+      // padding: 5rem 0 0 0;
+      padding: 3rem 0 0 0;
+    } */
+  }
+
+  @media screen and (max-width: 768px){
+    .slide2 img {
+      width: 70%;
+      height: auto;
+    }
+ 
+/*  .imgModal{
+      width: 95%;
+      // padding: 15rem 0 0 0;
+      padding: 3rem 0 0 0;
+    } */
+  }
+
+  @media screen and (max-width: 480px){
+    .slider2 {
+      width: 100%;
+      height: auto;
+      padding: 1.5rem 0 5rem 0;
+    }
+
+    .Modal {
+      width: 100%;
+      height: 100%;
+    }
+
+    /*.imgModal{
+      width: 95%;
+      padding: 1rem 0 0 0;
+    } */
+  }
+
+  @media screen and (max-width: 360px){
+    
+    .next2 {
+      right: 0%;
+      top: 50%;
+      margin: 0 0.5% 0 0;
+    }
+    
+    .prev2 {
+      left: 0%;
+      top: 50%;
+      margin: 0 0 0 0.5%;
+    }
+
+    /*.imgModal{
+      width: 95%;
+  //  padding: 8rem 0 0 0;
+      padding: 1rem 0 0 1%;
+    } */
+    
+  }

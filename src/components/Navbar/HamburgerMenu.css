@@ -1,0 +1,130 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    right: 10%;
+    top: 3.5%;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #000;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #F60000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #000;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #FFEFC5;
+    /* padding: 2.5em 0 1.5em 0; */
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #FFEFC5;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #000;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  .navbar-sections-items2{
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+    font-size: 24px;
+    margin: 2.5rem 0 2.5rem 0;
+    cursor: pointer;
+}
+
+.navbar-sections-items2:hover{
+    color: #F60000;
+}
+
+@media screen and (max-width: 1024px){
+  .hamburger-menu{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .bm-burger-button {
+    width: 24px;
+    height: 24px;
+    right: 10%;
+    top: 3.2%;
+  }
+}
+
+@media screen and (max-width: 480px){
+    .bm-burger-button {
+        width: 24px;
+        height: 24px;
+        right: 10%;
+        top: 3%;
+      }
+}
+
+@media screen and (max-width: 360px){
+    .bm-burger-button {
+        width: 24px;
+        height: 24px;
+        right: 10%;
+        top: 4%;
+      }
+}
+
+@media screen and (max-width: 320px){
+    .bm-burger-button {
+        width: 24px;
+        height: 24px;
+        right: 10%;
+        top: 5%;
+      }
+
+      .bm-menu {
+        background: #FFEFC5;
+        padding: 0 0 0 0;
+        font-size: 1.15em;
+      }
+}

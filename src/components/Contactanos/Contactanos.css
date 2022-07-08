@@ -1,0 +1,272 @@
+.contactanos-container{
+    width: 100%;
+    height: auto;
+    background-image: url(/src/media/textura-unsplash.jpg);
+    overflow: hidden;
+    
+}
+
+.contactanos-title{
+    text-align: center;
+    padding: 2em 0 2em 0;
+    background-color: #F60000;
+}
+
+.contactanos-container > h1{
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+}
+
+.contactanos{
+    width: 100%;
+}
+
+.table-divider{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.td-divider{
+    width: 50%;
+    padding: 0 0 0 20%;
+    color: #004056;
+}
+
+.td-divider2{
+    width: 50%;
+    padding: 0 20% 0 0;
+    color: #004056;
+}
+
+.separator {
+    display: flex;
+    color: #004056;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .5em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .5em;
+  }
+
+  .hr{
+      color: #004056;
+  }
+
+.container-btn-redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4em;
+    padding: 0 0 15% 0;
+}
+
+.container-btn-whatsapp{
+    padding-right: 10%;
+}
+
+.btn-whatsapp{
+    display: inline-block;
+    font-size: 24px;
+    padding: 15.5px 95.5px;
+    border-radius: 5px;
+    background-color: #004056;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+.btn-whatsapp:hover{
+    background-color: #F60000;
+  }
+
+.container-btn-linkedin{
+    padding-left: 10%;
+}
+
+.btn-linkedin{
+    display: inline-block;
+    font-size: 24px;
+    padding: 15.5px 95.5px;
+    border-radius: 5px;
+    background-color: #004056;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+.btn-linkedin:hover{
+    background-color: #F60000;
+  }
+
+@media  (max-width: 1680px) {
+}
+
+@media screen and (max-width: 1280px){
+
+.td-divider{
+    width: 50%;
+    padding: 0 0 0 15%;
+    color: #004056;
+}
+
+.td-divider2{
+    width: 50%;
+    padding: 0 15% 0 0;
+    color: #004056;
+}
+
+}
+
+@media screen and (max-width: 1024px){
+
+.td-divider{
+    width: 50%;
+    padding: 0 0 0 10%;
+    color: #004056;
+}
+
+.td-divider2{
+    width: 50%;
+    padding: 0 10% 0 0;
+    color: #004056;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.td-divider{
+    width: 50%;
+    padding: 0 0 0 5%;
+    color: #004056;
+}
+
+.td-divider2{
+    width: 50%;
+    padding: 0 5% 0 0;
+    color: #004056;
+}
+
+.container-btn-whatsapp{
+    padding-right: 2.5%;
+}
+.container-btn-linkedin{
+    padding-left: 2.5%;
+}
+            
+    }
+
+@media screen and (max-width: 480px) {
+
+  .contactanos-container > h1{
+    font-size: 36px;
+  }
+
+  .container-btn-redes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    margin-top: 4em;
+    padding: 0 0 15% 0;
+  }
+  
+  .btn-whatsapp{
+    width: 100%;
+    font-size: 24px;
+    padding: 15.5px 95.5px;
+    border-radius: 5px;
+    background-color: #004056;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-linkedin{
+    width: 100%;
+    font-size: 24px;
+    padding: 15.5px 95.5px;
+    border-radius: 5px;
+    background-color: #004056;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .container-btn-whatsapp{
+    padding-bottom: 5%;
+    padding-right: 0%;
+  }
+  .container-btn-linkedin{
+    padding-top: 5%;
+    padding-left: 0%;
+  }
+
+} 
+  
+@media screen and (max-width: 360px) {
+
+  .contactanos-container > h1{
+    font-size: 30px;
+  }
+
+.td-divider{
+  width: 50%;
+  padding: 0 0 0 5%;
+  color: #004056;
+  }
+
+.td-divider2{
+  width: 50%;
+  padding: 0 5% 0 0;
+  color: #004056;
+  }
+
+}
+      
+@media screen and (max-width: 320px){
+
+.td-divider{
+  width: 50%;
+  padding: 0 0 0 1%;
+  color: #004056;
+}
+
+.td-divider2{
+  width: 50%;
+  padding: 0 1% 0 0;
+  color: #004056;
+}
+
+.btn-linkedin{
+  margin-right: 1rem;
+}
+              
+      } 
+  

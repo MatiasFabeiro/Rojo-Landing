@@ -1,0 +1,45 @@
+.container-trabajos{
+    width: 100%;
+    background-image: url(/src/media/textura-unsplash.jpg);
+    
+}
+
+.container-trabajos-2{
+
+  width: 100%;
+  height: auto;
+  background-image: url(/src/media/trabajos/background_color.png);
+  
+}
+
+.trabajos{
+
+    text-align: center;
+
+}
+
+.trabajos > h1{
+    font-size: 48px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .trabajos > h1{
+        font-size: 36px;
+        padding-top: 4em;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .trabajos > h1{
+        font-size: 30px;
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
+        
+    }
