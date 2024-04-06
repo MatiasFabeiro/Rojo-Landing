@@ -15,16 +15,16 @@ const Logo_banner = () => {
 
     // const imagesSlider = [BannerImg1, BannerImg2, BannerImg3, BannerImg4, BannerImg5, BannerImg6, BannerImg7, BannerImg8, BannerImg9, BannerImg10]
 
-    var settings = {  
-        // dots: true,
-        // fade: true,
-        autoplay: true,  
-        infinite: true,
-        speed: 3400,  
-        centerMode: false,  
-        slidesToShow: 1,  
-        slidesToScroll: 1  
-        }; 
+    // var settings = {  
+    //     // dots: true,
+    //     // fade: true,
+    //     autoplay: true,  
+    //     infinite: true,
+    //     speed: 3400,  
+    //     centerMode: false,  
+    //     slidesToShow: 1,  
+    //     slidesToScroll: 1  
+    //     }; 
 
     return (
         <div id="Inicio" className="banner-container">
