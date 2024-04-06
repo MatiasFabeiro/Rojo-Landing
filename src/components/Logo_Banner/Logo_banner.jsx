@@ -50,7 +50,7 @@ const Logo_banner = () => {
                 </div>
             </div>
 
-            <SliderBanner {...settings} className="slider-banner">  
+            {/* <SliderBanner {...settings} className="slider-banner">  
             <div className="wdt-slider">  
               <img src={BannerImg1} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>  
@@ -63,7 +63,7 @@ const Logo_banner = () => {
             <div className="wdt-slider">  
               <img src= {BannerImg4} className="img-slider" alt="Slider con imagenes representativas de Rojo"/>  
             </div>
-            </SliderBanner>
+            </SliderBanner> */}
 
         </div>
         )
